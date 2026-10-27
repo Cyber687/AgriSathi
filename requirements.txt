@@ -1,0 +1,36 @@
+# ==================================================
+# AGRISATHI - PYTHON DEPENDENCIES
+# ==================================================
+
+# Environment variables and configuration
+python-dotenv>=1.0.1,<2.0.0
+
+# HTTP requests for weather and mandi APIs
+requests>=2.32.0,<3.0.0
+
+# Local LLM integration
+# The llama.cpp server is installed and run separately.
+# No Python LLM package is required for the current
+# urllib-based HTTP client.
+
+# Speech-to-text
+faster-whisper>=1.1.0,<2.0.0
+
+# Text-to-speech
+edge-tts>=7.0.0,<8.0.0
+
+# Audio processing support
+numpy>=1.26.0,<3.0.0
+
+# ==================================================
+# OPTIONAL: DEVELOPMENT TOOLS
+# ==================================================
+
+# Python code formatting
+black>=24.0.0
+
+# Static analysis
+ruff>=0.9.0
+
+fastapi>=0.115.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0

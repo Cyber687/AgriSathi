@@ -1,0 +1,2942 @@
+{
+  "schema_version": "1.0",
+  "dataset": "AgriSathi pest and disease management knowledge base",
+  "language_support": [
+    "en",
+    "hi"
+  ],
+  "description": "Pest and disease names and control-strategy text separated from the supplied English and Hindi crop spreadsheets. The original text is preserved; no chemical product or dosage is invented. Source attributions are not independently verified.",
+  "record_count": 100,
+  "records": [
+    {
+      "record_id": "PEST001",
+      "crop_id": 1,
+      "crop": {
+        "en": "Rice (Paddy)",
+        "hi": "धान (चावल)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST002",
+      "crop_id": 2,
+      "crop": {
+        "en": "Wheat",
+        "hi": "गेहूँ"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "CPCB / ICAR Guidelines",
+        "hi": "CPCB / ICAR Guidelines"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST003",
+      "crop_id": 3,
+      "crop": {
+        "en": "Maize (Corn)",
+        "hi": "मक्का"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST004",
+      "crop_id": 4,
+      "crop": {
+        "en": "Pearl Millet (Bajra)",
+        "hi": "बाजरा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST005",
+      "crop_id": 5,
+      "crop": {
+        "en": "Sorghum (Jowar)",
+        "hi": "ज्वार"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST006",
+      "crop_id": 6,
+      "crop": {
+        "en": "Finger Millet (Ragi)",
+        "hi": "रागी (मंडुआ)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST007",
+      "crop_id": 7,
+      "crop": {
+        "en": "Barley",
+        "hi": "जौ"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Wheat & Barley Institute",
+        "hi": "ICAR Wheat & Barley Institute"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST008",
+      "crop_id": 8,
+      "crop": {
+        "en": "Foxtail Millet (Kangni)",
+        "hi": "कांगनी (टांगुन)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST009",
+      "crop_id": 9,
+      "crop": {
+        "en": "Kodo Millet",
+        "hi": "कोदो"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST010",
+      "crop_id": 10,
+      "crop": {
+        "en": "Little Millet (Kutki)",
+        "hi": "कुटकी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST011",
+      "crop_id": 11,
+      "crop": {
+        "en": "Proso Millet (Chena)",
+        "hi": "चेना (चीना)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST012",
+      "crop_id": 12,
+      "crop": {
+        "en": "Barnyard Millet (Sanwa)",
+        "hi": "सांवा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST013",
+      "crop_id": 13,
+      "crop": {
+        "en": "Chickpea (Gram/Chana)",
+        "hi": "चना"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Pulses Research (IIPR)",
+        "hi": "ICAR Pulses Research (IIPR)"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST014",
+      "crop_id": 14,
+      "crop": {
+        "en": "Pigeon Pea (Arhar/Tur)",
+        "hi": "अरहर (तूर)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST015",
+      "crop_id": 15,
+      "crop": {
+        "en": "Green Gram (Moong)",
+        "hi": "मूंग"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": "Use integrated pest management (IPM). Apply neem oil spray or consult your local KVK for approved chemical controls.",
+        "hi": "एकीकृत कीट प्रबंधन (IPM) का प्रयोग करें। नीम तेल का छिड़काव करें या स्वीकृत रासायनिक नियंत्रण के लिए अपने स्थानीय KVK से सलाह लें।"
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST016",
+      "crop_id": 16,
+      "crop": {
+        "en": "Black Gram (Urad)",
+        "hi": "उड़द"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST017",
+      "crop_id": 17,
+      "crop": {
+        "en": "Lentil (Masoor)",
+        "hi": "मसूर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST018",
+      "crop_id": 18,
+      "crop": {
+        "en": "Field Pea (Matar)",
+        "hi": "मटर (दाल/दाना)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST019",
+      "crop_id": 19,
+      "crop": {
+        "en": "Cowpea (Lobia)",
+        "hi": "लोबिया"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST020",
+      "crop_id": 20,
+      "crop": {
+        "en": "Horse Gram (Kulthi)",
+        "hi": "कुलथी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST021",
+      "crop_id": 21,
+      "crop": {
+        "en": "Moth Bean",
+        "hi": "मोठ"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST022",
+      "crop_id": 22,
+      "crop": {
+        "en": "Cluster Bean (Guar)",
+        "hi": "ग्वार"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST023",
+      "crop_id": 23,
+      "crop": {
+        "en": "Lathyrus (Khesari Dal)",
+        "hi": "खेसारी (तीवड़ा)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST024",
+      "crop_id": 24,
+      "crop": {
+        "en": "Broad Bean (Bakla)",
+        "hi": "बाकला (सेम दाना)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST025",
+      "crop_id": 25,
+      "crop": {
+        "en": "Groundnut (Peanut)",
+        "hi": "मूंगफली"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Directorate of Groundnut Research",
+        "hi": "ICAR Directorate of Groundnut Research"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST026",
+      "crop_id": 26,
+      "crop": {
+        "en": "Mustard / Rapeseed",
+        "hi": "सरसों / राई"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR DRMR Bharatpur",
+        "hi": "ICAR DRMR Bharatpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST027",
+      "crop_id": 27,
+      "crop": {
+        "en": "Soybean",
+        "hi": "सोयाबीन"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Indore",
+        "hi": "ICAR IISR Indore"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST028",
+      "crop_id": 28,
+      "crop": {
+        "en": "Sunflower",
+        "hi": "सूरजमुखी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST029",
+      "crop_id": 29,
+      "crop": {
+        "en": "Sesame (Til)",
+        "hi": "तिल"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST030",
+      "crop_id": 30,
+      "crop": {
+        "en": "Castor",
+        "hi": "अरंडी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST031",
+      "crop_id": 31,
+      "crop": {
+        "en": "Safflower",
+        "hi": "कुसुम (करडी)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST032",
+      "crop_id": 32,
+      "crop": {
+        "en": "Linseed (Flax)",
+        "hi": "अलसी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST033",
+      "crop_id": 33,
+      "crop": {
+        "en": "Niger Seed",
+        "hi": "रामतिल"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST034",
+      "crop_id": 34,
+      "crop": {
+        "en": "Oil Palm",
+        "hi": "ऑयल पाम (ताड़)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIOPR Pedavegi",
+        "hi": "ICAR IIOPR Pedavegi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST035",
+      "crop_id": 35,
+      "crop": {
+        "en": "Sugarcane",
+        "hi": "गन्ना"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Sugarcane Breeding Institute",
+        "hi": "ICAR Sugarcane Breeding Institute"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST036",
+      "crop_id": 36,
+      "crop": {
+        "en": "Cotton",
+        "hi": "कपास"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CICR Nagpur",
+        "hi": "ICAR CICR Nagpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST037",
+      "crop_id": 37,
+      "crop": {
+        "en": "Jute",
+        "hi": "जूट (पटसन)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CRIJAF Barrackpore",
+        "hi": "ICAR CRIJAF Barrackpore"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST038",
+      "crop_id": 38,
+      "crop": {
+        "en": "Tobacco",
+        "hi": "तंबाकू"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CTRI Rajahmundry",
+        "hi": "ICAR CTRI Rajahmundry"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST039",
+      "crop_id": 39,
+      "crop": {
+        "en": "Mesta (Kenaf)",
+        "hi": "मेस्टा (पटुआ)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST040",
+      "crop_id": 40,
+      "crop": {
+        "en": "Sunhemp",
+        "hi": "सनई"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST041",
+      "crop_id": 41,
+      "crop": {
+        "en": "Rubber",
+        "hi": "रबर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "Rubber Research Institute of India",
+        "hi": "Rubber Research Institute of India"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST042",
+      "crop_id": 42,
+      "crop": {
+        "en": "Arecanut (Betel Nut)",
+        "hi": "सुपारी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST043",
+      "crop_id": 43,
+      "crop": {
+        "en": "Potato",
+        "hi": "आलू"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CPRI Shimla",
+        "hi": "ICAR CPRI Shimla"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST044",
+      "crop_id": 44,
+      "crop": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST045",
+      "crop_id": 45,
+      "crop": {
+        "en": "Onion",
+        "hi": "प्याज"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST046",
+      "crop_id": 46,
+      "crop": {
+        "en": "Garlic",
+        "hi": "लहसुन"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST047",
+      "crop_id": 47,
+      "crop": {
+        "en": "Brinjal (Eggplant)",
+        "hi": "बैंगन"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST048",
+      "crop_id": 48,
+      "crop": {
+        "en": "Okra (Lady Finger)",
+        "hi": "भिंडी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST049",
+      "crop_id": 49,
+      "crop": {
+        "en": "Cauliflower",
+        "hi": "फूलगोभी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST050",
+      "crop_id": 50,
+      "crop": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST051",
+      "crop_id": 51,
+      "crop": {
+        "en": "Bitter Gourd",
+        "hi": "करेला"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST052",
+      "crop_id": 52,
+      "crop": {
+        "en": "Bottle Gourd",
+        "hi": "लौकी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST053",
+      "crop_id": 53,
+      "crop": {
+        "en": "Cucumber",
+        "hi": "खीरा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST054",
+      "crop_id": 54,
+      "crop": {
+        "en": "Pumpkin",
+        "hi": "कद्दू (काशीफल)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST055",
+      "crop_id": 55,
+      "crop": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST056",
+      "crop_id": 56,
+      "crop": {
+        "en": "Radish",
+        "hi": "मूली"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST057",
+      "crop_id": 57,
+      "crop": {
+        "en": "Spinach (Palak)",
+        "hi": "पालक"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST058",
+      "crop_id": 58,
+      "crop": {
+        "en": "Sweet Potato",
+        "hi": "शकरकंद"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CTCRI Thiruvananthapuram",
+        "hi": "ICAR CTCRI Thiruvananthapuram"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST059",
+      "crop_id": 59,
+      "crop": {
+        "en": "Elephant Foot Yam",
+        "hi": "जिमीकंद (सूरन)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST060",
+      "crop_id": 60,
+      "crop": {
+        "en": "Colocasia (Taro)",
+        "hi": "अरबी (घुइयां)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST061",
+      "crop_id": 61,
+      "crop": {
+        "en": "Capsicum (Bell Pepper)",
+        "hi": "शिमला मिर्च"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST062",
+      "crop_id": 62,
+      "crop": {
+        "en": "Green Peas",
+        "hi": "हरी मटर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST063",
+      "crop_id": 63,
+      "crop": {
+        "en": "Turmeric",
+        "hi": "हल्दी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST064",
+      "crop_id": 64,
+      "crop": {
+        "en": "Ginger",
+        "hi": "अदरक"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST065",
+      "crop_id": 65,
+      "crop": {
+        "en": "Cumin (Jeera)",
+        "hi": "जीरा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST066",
+      "crop_id": 66,
+      "crop": {
+        "en": "Coriander",
+        "hi": "धनिया"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST067",
+      "crop_id": 67,
+      "crop": {
+        "en": "Fennel (Saunf)",
+        "hi": "सौंफ"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST068",
+      "crop_id": 68,
+      "crop": {
+        "en": "Fenugreek (Methi)",
+        "hi": "मेथी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST069",
+      "crop_id": 69,
+      "crop": {
+        "en": "Cardamom (Small)",
+        "hi": "छोटी इलायची"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST070",
+      "crop_id": 70,
+      "crop": {
+        "en": "Black Pepper",
+        "hi": "काली मिर्च"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST071",
+      "crop_id": 71,
+      "crop": {
+        "en": "Chilli (Red/Green)",
+        "hi": "मिर्च (हरी/लाल)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST072",
+      "crop_id": 72,
+      "crop": {
+        "en": "Tea",
+        "hi": "चाय"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "Tea Board of India / UPASI",
+        "hi": "Tea Board of India / UPASI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST073",
+      "crop_id": 73,
+      "crop": {
+        "en": "Coffee (Arabica / Robusta)",
+        "hi": "कॉफी (कॉफ़ी)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "Coffee Board of India",
+        "hi": "Coffee Board of India"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST074",
+      "crop_id": 74,
+      "crop": {
+        "en": "Coconut",
+        "hi": "नारियल"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST075",
+      "crop_id": 75,
+      "crop": {
+        "en": "Cashew",
+        "hi": "काजू"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR Directorate of Cashew Research",
+        "hi": "ICAR Directorate of Cashew Research"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST076",
+      "crop_id": 76,
+      "crop": {
+        "en": "Betel Vine",
+        "hi": "पान (नागवल्ली)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST077",
+      "crop_id": 77,
+      "crop": {
+        "en": "Vanilla",
+        "hi": "वैनिला"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST078",
+      "crop_id": 78,
+      "crop": {
+        "en": "Isabgol (Psyllium)",
+        "hi": "ईसबगोल"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR DMAPR Anand",
+        "hi": "ICAR DMAPR Anand"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST079",
+      "crop_id": 79,
+      "crop": {
+        "en": "Opium Poppy",
+        "hi": "अफीम (पोस्ता)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CIMAP Lucknow",
+        "hi": "ICAR CIMAP Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST080",
+      "crop_id": 80,
+      "crop": {
+        "en": "Cinnamon",
+        "hi": "दालचीनी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST081",
+      "crop_id": 81,
+      "crop": {
+        "en": "Mango",
+        "hi": "आम"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST082",
+      "crop_id": 82,
+      "crop": {
+        "en": "Banana",
+        "hi": "केला"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCB Trichy",
+        "hi": "ICAR NRCB Trichy"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST083",
+      "crop_id": 83,
+      "crop": {
+        "en": "Citrus (Lemon / Orange)",
+        "hi": "नींबू / संतरा / मौसमी"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CCRI Nagpur",
+        "hi": "ICAR CCRI Nagpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST084",
+      "crop_id": 84,
+      "crop": {
+        "en": "Guava",
+        "hi": "अमरूद"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST085",
+      "crop_id": 85,
+      "crop": {
+        "en": "Papaya",
+        "hi": "पपीता"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST086",
+      "crop_id": 86,
+      "crop": {
+        "en": "Pomegranate",
+        "hi": "अनार"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCP Solapur",
+        "hi": "ICAR NRCP Solapur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST087",
+      "crop_id": 87,
+      "crop": {
+        "en": "Apple",
+        "hi": "सेब"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST088",
+      "crop_id": 88,
+      "crop": {
+        "en": "Grapes",
+        "hi": "अंगूर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCG Pune",
+        "hi": "ICAR NRCG Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST089",
+      "crop_id": 89,
+      "crop": {
+        "en": "Watermelon",
+        "hi": "तरबूज"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST090",
+      "crop_id": 90,
+      "crop": {
+        "en": "Muskmelon",
+        "hi": "खरबूजा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIVR",
+        "hi": "ICAR IIVR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST091",
+      "crop_id": 91,
+      "crop": {
+        "en": "Pineapple",
+        "hi": "अनानास"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR KVK / Kerala Ag Univ",
+        "hi": "ICAR KVK / Kerala Ag Univ"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST092",
+      "crop_id": 92,
+      "crop": {
+        "en": "Sapota (Chiku)",
+        "hi": "चीकू (सपोटा)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST093",
+      "crop_id": 93,
+      "crop": {
+        "en": "Litchi",
+        "hi": "लीची"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR NRCL Muzaffarpur",
+        "hi": "ICAR NRCL Muzaffarpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST094",
+      "crop_id": 94,
+      "crop": {
+        "en": "Pear",
+        "hi": "नाशपाती"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST095",
+      "crop_id": 95,
+      "crop": {
+        "en": "Peach",
+        "hi": "आड़ू"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST096",
+      "crop_id": 96,
+      "crop": {
+        "en": "Plum",
+        "hi": "आलूबुखारा"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST097",
+      "crop_id": 97,
+      "crop": {
+        "en": "Ber (Indian Plum)",
+        "hi": "बेर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST098",
+      "crop_id": 98,
+      "crop": {
+        "en": "Custard Apple",
+        "hi": "शरीफा (सीताफल)"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST099",
+      "crop_id": 99,
+      "crop": {
+        "en": "Amla (Indian Gooseberry)",
+        "hi": "आंवला"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    },
+    {
+      "record_id": "PEST100",
+      "crop_id": 100,
+      "crop": {
+        "en": "Fig",
+        "hi": "अंजीर"
+      },
+      "pests_and_diseases_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "management_strategies_as_listed": {
+        "en": null,
+        "hi": null
+      },
+      "chemical_recommendations": [],
+      "chemical_dosage": null,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "The listed management text is transcribed from the provided spreadsheets and has not been independently verified. Do not infer pesticide products, application rates, or chemical dosages from this record. Verify advice against current official agricultural guidance and the product label."
+    }
+  ]
+}

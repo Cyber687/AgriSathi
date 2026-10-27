@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+models/
+*.gguf
+*.bin
+llama.cpp/
+tempCodeRunnerFile.cpp
+.gitmodules
+.env
+*.key
+.vscode/
+logs/
+*.log

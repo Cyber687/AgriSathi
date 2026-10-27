@@ -1,0 +1,3638 @@
+{
+  "schema_version": "1.0",
+  "dataset": "AgriSathi crop master knowledge base",
+  "description": "Bilingual English-Hindi crop records classified separately from fertilizer, pest-control, and irrigation recommendation datasets. Content is transcribed from the provided spreadsheets; source attributions are preserved but have not been independently verified.",
+  "record_count": 100,
+  "records": [
+    {
+      "record_id": "CROP001",
+      "crop_id": 1,
+      "name": {
+        "en": "Rice (Paddy)",
+        "hi": "धान (चावल)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif / Rabi",
+        "hi": "खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Deep clayey/loamy soil; Alternate wetting/drying or flooded irrigation (100–120 cm)",
+        "hi": "चिकनी व दोमट मिट्टी; बारी-बारी से सिंचाई (100–120 सेमी पानी)"
+      },
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP002",
+      "crop_id": 2,
+      "name": {
+        "en": "Wheat",
+        "hi": "गेहूँ"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy soil; 4–6 critical irrigations (CRI stage vital)",
+        "hi": "अच्छी जल निकासी वाली दोमट मिट्टी; 4-6 सिंचाइयां (CRI अवस्था)"
+      },
+      "source_attribution": {
+        "en": "CPCB / ICAR Guidelines",
+        "hi": "CPCB / ICAR Guidelines"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP003",
+      "crop_id": 3,
+      "name": {
+        "en": "Maize (Corn)",
+        "hi": "मक्का"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif / Spring",
+        "hi": "खरीफ / वसंत"
+      },
+      "soil_requirements": {
+        "en": "Well-drained alluvial/red loam; Furrow irrigation (45–60 cm water)",
+        "hi": "जलोढ़ या लाल दोमट मिट्टी; नाली सिंचाई (45-60 सेमी)"
+      },
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP004",
+      "crop_id": 4,
+      "name": {
+        "en": "Pearl Millet (Bajra)",
+        "hi": "बाजरा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Sandy loam to light red soils; Rainfed / 1–2 life-saving irrigations",
+        "hi": "बलुई दोमट से हल्की लाल मिट्टी; वर्षा आधारित या 1-2 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP005",
+      "crop_id": 5,
+      "name": {
+        "en": "Sorghum (Jowar)",
+        "hi": "ज्वार"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif / Rabi",
+        "hi": "खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Clay loams to deep black soils; Drought tolerant; 2–3 irrigations if rainfed fails",
+        "hi": "काली व दोमट मिट्टी; सूखा सहनशील; 2-3 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP006",
+      "crop_id": 6,
+      "name": {
+        "en": "Finger Millet (Ragi)",
+        "hi": "रागी (मंडुआ)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif / Rabi",
+        "hi": "खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained red loamy soils; Requires light surface irrigation during dry spells",
+        "hi": "लाल दोमट मिट्टी; हल्की सिंचाई की आवश्यकता"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP007",
+      "crop_id": 7,
+      "name": {
+        "en": "Barley",
+        "hi": "जौ"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Moderately heavy loam or sandy loam; 2–3 irrigations total",
+        "hi": "हल्की दोमट या बलुई दोमट; 2-3 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR Wheat & Barley Institute",
+        "hi": "ICAR Wheat & Barley Institute"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP008",
+      "crop_id": 8,
+      "name": {
+        "en": "Foxtail Millet (Kangni)",
+        "hi": "कांगनी (टांगुन)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Light well-drained soils; Minimal water (20–30 cm)",
+        "hi": "हल्की सूखी मिट्टी; कम पानी (20-30 सेमी)"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP009",
+      "crop_id": 9,
+      "name": {
+        "en": "Kodo Millet",
+        "hi": "कोदो"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Gravelly/sandy poor soils; Rainfed",
+        "hi": "रेतीली व कमजोर मिट्टी; पूर्णतः वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP010",
+      "crop_id": 10,
+      "name": {
+        "en": "Little Millet (Kutki)",
+        "hi": "कुटकी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Shallow, drought-prone soils; Rainfed",
+        "hi": "कम गहरी, सूखा प्रभावित मिट्टी; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP011",
+      "crop_id": 11,
+      "name": {
+        "en": "Proso Millet (Chena)",
+        "hi": "चेना (चीना)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Zaid / Spring",
+        "hi": "जायद / वसंत"
+      },
+      "soil_requirements": {
+        "en": "Quick-maturing; Light sandy soils; 1–2 irrigations",
+        "hi": "शीघ्र पकने वाली; हल्की रेतीली मिट्टी; 1-2 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP012",
+      "crop_id": 12,
+      "name": {
+        "en": "Barnyard Millet (Sanwa)",
+        "hi": "सांवा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Cereals & Coarse Grains",
+        "hi": "अनाज व मोटे अनाज"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Tolerates wet/poorly drained soils; Rainfed",
+        "hi": "जलजमाव वाली मिट्टी सहनशील; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP013",
+      "crop_id": 13,
+      "name": {
+        "en": "Chickpea (Gram/Chana)",
+        "hi": "चना"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained heavy clay to loam; 1–2 irrigations (branching & pod filling)",
+        "hi": "भारी दोमट मिट्टी; 1-2 सिंचाइयां (शाखा व फली बनने पर)"
+      },
+      "source_attribution": {
+        "en": "ICAR Pulses Research (IIPR)",
+        "hi": "ICAR Pulses Research (IIPR)"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP014",
+      "crop_id": 14,
+      "name": {
+        "en": "Pigeon Pea (Arhar/Tur)",
+        "hi": "अरहर (तूर)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained loams; Sensitive to waterlogging; 2 irrigations if dry",
+        "hi": "गहरी दोमट मिट्टी; जलजमाव के प्रति संवेदनशील; 2 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP015",
+      "crop_id": 15,
+      "name": {
+        "en": "Green Gram (Moong)",
+        "hi": "मूंग"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif / Zaid",
+        "hi": "खरीफ / जायद"
+      },
+      "soil_requirements": {
+        "en": "Sandy loam to alluvial; 2–3 irrigations in summer (Zaid)",
+        "hi": "बलुई दोमट; गर्मियों में 2-3 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "verified"
+    },
+    {
+      "record_id": "CROP016",
+      "crop_id": 16,
+      "name": {
+        "en": "Black Gram (Urad)",
+        "hi": "उड़द"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif / Rabi",
+        "hi": "खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Heavy clay to loamy soil; Sensitive to drought; 2 light irrigations",
+        "hi": "भारी दोमट मिट्टी; 2 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP017",
+      "crop_id": 17,
+      "name": {
+        "en": "Lentil (Masoor)",
+        "hi": "मसूर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Loam to light black soils; 1–2 life-saving irrigations",
+        "hi": "दोमट से हल्की काली मिट्टी; 1-2 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP018",
+      "crop_id": 18,
+      "name": {
+        "en": "Field Pea (Matar)",
+        "hi": "मटर (दाल/दाना)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy soil; Critical watering at flowering and pod set",
+        "hi": "दोमट मिट्टी; फूल व फली बनते समय सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP019",
+      "crop_id": 19,
+      "name": {
+        "en": "Cowpea (Lobia)",
+        "hi": "लोबिया"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif / Summer",
+        "hi": "खरीफ / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Sandy to clay loam; Moderate water requirements; 3–4 light irrigations in summer",
+        "hi": "बलुई दोमट; गर्मियों में 3-4 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP020",
+      "crop_id": 20,
+      "name": {
+        "en": "Horse Gram (Kulthi)",
+        "hi": "कुलथी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Late Kharif / Rabi",
+        "hi": "उत्तर खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Poor, degraded, gravelly soils; Drought hardy; Strictly rainfed",
+        "hi": "कमजोर, पथरीली मिट्टी; सूखा सहनशील; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP021",
+      "crop_id": 21,
+      "name": {
+        "en": "Moth Bean",
+        "hi": "मोठ"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Arid sandy soils; Extreme drought tolerance; Rainfed",
+        "hi": "शुष्क रेतीली मिट्टी; अत्यधिक सूखा सहनशील; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP022",
+      "crop_id": 22,
+      "name": {
+        "en": "Cluster Bean (Guar)",
+        "hi": "ग्वार"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Sandy soils; Low rainfall requirement; Sensitive to standing water",
+        "hi": "रेतीली मिट्टी; कम पानी की जरूरत; जलजमाव से बचाएं"
+      },
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP023",
+      "crop_id": 23,
+      "name": {
+        "en": "Lathyrus (Khesari Dal)",
+        "hi": "खेसारी (तीवड़ा)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Heavy clay soils; Grown as relay/paira crop; Rainfed/residual moisture",
+        "hi": "भारी काली मिट्टी; उतेरा/पायरा फसल रूप में बुवाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP024",
+      "crop_id": 24,
+      "name": {
+        "en": "Broad Bean (Bakla)",
+        "hi": "बाकला (सेम दाना)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Pulses & Legumes",
+        "hi": "दलहन व फलीदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Heavy fertile loams; Requires regular light moisture (3–4 irrigations)",
+        "hi": "उर्वर दोमट मिट्टी; नियमित 3-4 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP025",
+      "crop_id": 25,
+      "name": {
+        "en": "Groundnut (Peanut)",
+        "hi": "मूंगफली"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif / Summer",
+        "hi": "खरीफ / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained sandy loam/red soil; Irrigation at pegging & pod formation",
+        "hi": "बलुई दोमट या लाल मिट्टी; सूई गड़ने व फली बनते समय सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR Directorate of Groundnut Research",
+        "hi": "ICAR Directorate of Groundnut Research"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP026",
+      "crop_id": 26,
+      "name": {
+        "en": "Mustard / Rapeseed",
+        "hi": "सरसों / राई"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Light to medium loams; 2 critical irrigations (Rosette & Siliqua stage)",
+        "hi": "हल्की से मध्यम दोमट; 2 मुख्य सिंचाइयां (फूल व फली अवस्था)"
+      },
+      "source_attribution": {
+        "en": "ICAR DRMR Bharatpur",
+        "hi": "ICAR DRMR Bharatpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP027",
+      "crop_id": 27,
+      "name": {
+        "en": "Soybean",
+        "hi": "सोयाबीन"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Well-drained black/clay loams; Avoid waterlogging; 2–3 protective irrigations",
+        "hi": "काली व दोमट मिट्टी; जलजमाव से बचाएं; 2-3 रक्षी सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Indore",
+        "hi": "ICAR IISR Indore"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP028",
+      "crop_id": 28,
+      "name": {
+        "en": "Sunflower",
+        "hi": "सूरजमुखी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif / Rabi / Summer",
+        "hi": "खरीफ / रबी / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Neutral clay loams; Irrigation needed at flowering and seed filling",
+        "hi": "दोमट मिट्टी; फूल आने व दाना भरते समय सिंचाई अनिवार्य"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP029",
+      "crop_id": 29,
+      "name": {
+        "en": "Sesame (Til)",
+        "hi": "तिल"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif / Summer",
+        "hi": "खरीफ / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained light soils; Highly sensitive to waterlogging; 1–2 irrigations",
+        "hi": "हल्की दोमट मिट्टी; जलजमाव के प्रति अत्यंत संवेदनशील; 1-2 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP030",
+      "crop_id": 30,
+      "name": {
+        "en": "Castor",
+        "hi": "अरंडी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Deep sandy loams; Deep root system; Needs 3–4 irrigations during dry spells",
+        "hi": "गहरी बलुई दोमट; 3-4 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP031",
+      "crop_id": 31,
+      "name": {
+        "en": "Safflower",
+        "hi": "कुसुम (करडी)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Medium to heavy black soils; Drought tolerant; 1 irrigation at flowering",
+        "hi": "काली व दोमट मिट्टी; सूखा सहनशील; फूल आने पर 1 सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP032",
+      "crop_id": 32,
+      "name": {
+        "en": "Linseed (Flax)",
+        "hi": "अलसी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Fertile clay and loamy soils; 2–3 light irrigations",
+        "hi": "उपजाऊ दोमट मिट्टी; 2-3 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP033",
+      "crop_id": 33,
+      "name": {
+        "en": "Niger Seed",
+        "hi": "रामतिल"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Poor gravelly soils in hilly regions; Rainfed",
+        "hi": "पहाड़ी व हल्की पथरीली मिट्टी; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP034",
+      "crop_id": 34,
+      "name": {
+        "en": "Oil Palm",
+        "hi": "ऑयल पाम (ताड़)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Oilseeds",
+        "hi": "तिलहन फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Humid tropical climate; Deep alluvial soil; High drip irrigation (150–300 L/tree/day)",
+        "hi": "आर्द्र जलवायु; ड्रिप सिंचाई (150-300 लीटर/पेड़/दिन)"
+      },
+      "source_attribution": {
+        "en": "ICAR IIOPR Pedavegi",
+        "hi": "ICAR IIOPR Pedavegi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP035",
+      "crop_id": 35,
+      "name": {
+        "en": "Sugarcane",
+        "hi": "गन्ना"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Perennial (12–18 mo)",
+        "hi": "बहुवर्षीय (12-18 माह)"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained loams; High irrigation (200–250 cm water; 15–20 light waterings)",
+        "hi": "गहरी दोमट मिट्टी; अधिक पानी (15-20 सिंचाइयां)"
+      },
+      "source_attribution": {
+        "en": "ICAR Sugarcane Breeding Institute",
+        "hi": "ICAR Sugarcane Breeding Institute"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP036",
+      "crop_id": 36,
+      "name": {
+        "en": "Cotton",
+        "hi": "कपास"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Deep black cotton soil (Vertisols); Drip/Furrow irrigation (5–7 cycles)",
+        "hi": "गहरी काली कपास मिट्टी; 5-7 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR CICR Nagpur",
+        "hi": "ICAR CICR Nagpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP037",
+      "crop_id": 37,
+      "name": {
+        "en": "Jute",
+        "hi": "जूट (पटसन)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "New alluvial soil; High atmospheric humidity; Rainfed/supplemental flooding",
+        "hi": "नवीन जलोढ़ मिट्टी; उच्च आर्द्रता; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR CRIJAF Barrackpore",
+        "hi": "ICAR CRIJAF Barrackpore"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP038",
+      "crop_id": 38,
+      "name": {
+        "en": "Tobacco",
+        "hi": "तंबाकू"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Light sandy loam (FCV type); Highly sensitive to waterlogging; 2–4 light irrigations",
+        "hi": "हल्की बलुई दोमट; 2-4 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR CTRI Rajahmundry",
+        "hi": "ICAR CTRI Rajahmundry"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP039",
+      "crop_id": 39,
+      "name": {
+        "en": "Mesta (Kenaf)",
+        "hi": "मेस्टा (पटुआ)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Poorly drained or dry soils; Drought hardy; Mostly rainfed",
+        "hi": "शुष्क व सामान्य मिट्टी; वर्षा आधारित"
+      },
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP040",
+      "crop_id": 40,
+      "name": {
+        "en": "Sunhemp",
+        "hi": "सनई"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Well-drained light soils; Grown for green manure/fiber; Minimal water",
+        "hi": "हल्की मिट्टी; हरी खाद हेतु सर्वोत्तम; कम पानी"
+      },
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP041",
+      "crop_id": 41,
+      "name": {
+        "en": "Rubber",
+        "hi": "रबर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Acidic laterite soil; High humidity & rainfall (>200 cm); Supplemental drip",
+        "hi": "अम्लीय लैटेराइट मिट्टी; अत्यधिक वर्षा (>200 सेमी)"
+      },
+      "source_attribution": {
+        "en": "Rubber Research Institute of India",
+        "hi": "Rubber Research Institute of India"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP042",
+      "crop_id": 42,
+      "name": {
+        "en": "Arecanut (Betel Nut)",
+        "hi": "सुपारी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Commercial & Fiber",
+        "hi": "वाणिज्यिक व रेशेदार फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep clay loam/laterite; Requires rich moist soil; Drip irrigation essential in summer",
+        "hi": "गहरी दोमट/लैटेराइट मिट्टी; गर्मियों में ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP043",
+      "crop_id": 43,
+      "name": {
+        "en": "Potato",
+        "hi": "आलू"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loose sandy loam; Ridge irrigation every 7–10 days",
+        "hi": "हल्की बलुई दोमट; मेढ़ सिंचाई (प्रत्येक 7-10 दिन)"
+      },
+      "source_attribution": {
+        "en": "ICAR CPRI Shimla",
+        "hi": "ICAR CPRI Shimla"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP044",
+      "crop_id": 44,
+      "name": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif / Rabi / Summer",
+        "hi": "खरीफ / रबी / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Rich well-drained loam; Drip irrigation with fertigation preferred",
+        "hi": "उपजाऊ दोमट मिट्टी; ड्रिप सिंचाई व फर्टिगेशन"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP045",
+      "crop_id": 45,
+      "name": {
+        "en": "Onion",
+        "hi": "प्याज"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi / Kharif",
+        "hi": "रबी / खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Medium loamy soil; Frequent shallow irrigations (10–12 day interval)",
+        "hi": "मध्यम दोमट मिट्टी; हल्की-हल्की बारंबार सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP046",
+      "crop_id": 46,
+      "name": {
+        "en": "Garlic",
+        "hi": "लहसुन"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Rich sandy loam; Sensitive to water stagnation; Regular light waterings",
+        "hi": "उपजाऊ बलुई दोमट; 10-12 दिन में हल्की सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP047",
+      "crop_id": 47,
+      "name": {
+        "en": "Brinjal (Eggplant)",
+        "hi": "बैंगन"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Year-round",
+        "hi": "वर्षभर"
+      },
+      "soil_requirements": {
+        "en": "Silt loam to clay loam; Irrigated at 4–6 day intervals in summer",
+        "hi": "गाद दोमट मिट्टी; गर्मियों में 4-6 दिन में सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP048",
+      "crop_id": 48,
+      "name": {
+        "en": "Okra (Lady Finger)",
+        "hi": "भिंडी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif / Summer",
+        "hi": "खरीफ / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Friable rich soil; Frequent irrigation (every 4–5 days in summer)",
+        "hi": "भुरभुरी उपजाऊ मिट्टी; 4-5 दिन में सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP049",
+      "crop_id": 49,
+      "name": {
+        "en": "Cauliflower",
+        "hi": "फूलगोभी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained loamy soil; Requires constant moisture",
+        "hi": "गहरी दोमट मिट्टी; लगातार हल्की नमी आवश्यक"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP050",
+      "crop_id": 50,
+      "name": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Sandy loam to clay loams; Regular furrow irrigation",
+        "hi": "बलुई दोमट; नियमित नाली सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP051",
+      "crop_id": 51,
+      "name": {
+        "en": "Bitter Gourd",
+        "hi": "करेला"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Zaid / Kharif",
+        "hi": "जायद / खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Well-drained sandy loam; Drip irrigation with trellis support",
+        "hi": "बलुई दोमट; मचान विधि व ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP052",
+      "crop_id": 52,
+      "name": {
+        "en": "Bottle Gourd",
+        "hi": "लौकी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Zaid / Kharif",
+        "hi": "जायद / खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Sandy loam rich in organic matter; Channel or drip watering",
+        "hi": "जीवांश युक्त बलुई दोमट; ड्रिप या नाली सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP053",
+      "crop_id": 53,
+      "name": {
+        "en": "Cucumber",
+        "hi": "खीरा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Zaid / Summer",
+        "hi": "जायद / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Loose sandy soil; Frequent light irrigation (every 2–3 days)",
+        "hi": "हल्की रेतीली मिट्टी; 2-3 दिन में हल्की सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP054",
+      "crop_id": 54,
+      "name": {
+        "en": "Pumpkin",
+        "hi": "कद्दू (काशीफल)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif / Zaid",
+        "hi": "खरीफ / जायद"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy soils; Basin irrigation",
+        "hi": "दोमट मिट्टी; थाला (बेसिन) सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP055",
+      "crop_id": 55,
+      "name": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Deep loose friable sandy loam; Light frequent watering (prevents splitting)",
+        "hi": "गहरी भुरभुरी बलुई दोमट; हल्की नियमित सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP056",
+      "crop_id": 56,
+      "name": {
+        "en": "Radish",
+        "hi": "मूली"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi / Kharif",
+        "hi": "रबी / खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Loose friable soil; Regular watering to avoid pungent hard roots",
+        "hi": "भुरभुरी मिट्टी; नियमित पानी ताकि जड़ें सख्त न हों"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP057",
+      "crop_id": 57,
+      "name": {
+        "en": "Spinach (Palak)",
+        "hi": "पालक"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi / Year-round",
+        "hi": "रबी / वर्षभर"
+      },
+      "soil_requirements": {
+        "en": "Alluvial clay loams; Irrigated after every cutting (5–7 days)",
+        "hi": "उपजाऊ दोमट; प्रत्येक कटाई के बाद सिंचाई (5-7 दिन)"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP058",
+      "crop_id": 58,
+      "name": {
+        "en": "Sweet Potato",
+        "hi": "शकरकंद"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Friable loamy soil; 3–4 light irrigations during dry spells",
+        "hi": "भुरभुरी दोमट मिट्टी; शुष्क समय में 3-4 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR CTCRI Thiruvananthapuram",
+        "hi": "ICAR CTCRI Thiruvananthapuram"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP059",
+      "crop_id": 59,
+      "name": {
+        "en": "Elephant Foot Yam",
+        "hi": "जिमीकंद (सूरन)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Well-drained sandy loams; Raised beds; Irrigated during dry periods",
+        "hi": "बलुई दोमट; उठी हुई क्यारियां; शुष्क समय में सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP060",
+      "crop_id": 60,
+      "name": {
+        "en": "Colocasia (Taro)",
+        "hi": "अरबी (घुइयां)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Kharif",
+        "hi": "खरीफ"
+      },
+      "soil_requirements": {
+        "en": "Moist, marshy or loamy soils; High water requirement; Flooded or frequent basin",
+        "hi": "नमी युक्त दोमट मिट्टी; अधिक पानी की आवश्यकता"
+      },
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP061",
+      "crop_id": 61,
+      "name": {
+        "en": "Capsicum (Bell Pepper)",
+        "hi": "शिमला मिर्च"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi / Protected",
+        "hi": "रबी / संरक्षित खेती"
+      },
+      "soil_requirements": {
+        "en": "Rich friable loam; Drip irrigation under polyhouse/shade net",
+        "hi": "उपजाऊ दोमट; पॉलीहाउस या शेडनेट में ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP062",
+      "crop_id": 62,
+      "name": {
+        "en": "Green Peas",
+        "hi": "हरी मटर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Vegetables",
+        "hi": "सब्जियां"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained light loams; Sensitive to excessive water; 2–3 irrigations",
+        "hi": "हल्की दोमट मिट्टी; अधिक पानी से बचाएं; 2-3 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP063",
+      "crop_id": 63,
+      "name": {
+        "en": "Turmeric",
+        "hi": "हल्दी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Kharif (8–9 mo)",
+        "hi": "खरीफ (8-9 माह)"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy/red soil; Sensitive to water stagnation; 15–20 irrigations",
+        "hi": "लाल या दोमट मिट्टी; जलजमाव से बचाएं; 15-20 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP064",
+      "crop_id": 64,
+      "name": {
+        "en": "Ginger",
+        "hi": "अदरक"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Kharif (8 mo)",
+        "hi": "खरीफ (8 माह)"
+      },
+      "soil_requirements": {
+        "en": "Sandy or clay loam rich in humus; Mulching required; Drip or sprinkler",
+        "hi": "जीवांश युक्त दोमट; पुआल मल्चिंग अनिवार्य; ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP065",
+      "crop_id": 65,
+      "name": {
+        "en": "Cumin (Jeera)",
+        "hi": "जीरा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained sandy loam; Highly sensitive to moisture; 3–4 light waterings",
+        "hi": "बलुई दोमट; नमी के प्रति अत्यधिक संवेदनशील; 3-4 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP066",
+      "crop_id": 66,
+      "name": {
+        "en": "Coriander",
+        "hi": "धनिया"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Medium heavy loams; 3–4 irrigations at critical growth stages",
+        "hi": "मध्यम भारी दोमट; 3-4 सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP067",
+      "crop_id": 67,
+      "name": {
+        "en": "Fennel (Saunf)",
+        "hi": "सौंफ"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Rich loamy soils; Sensitive to frost; 5–6 light irrigations",
+        "hi": "उपजाऊ दोमट मिट्टी; पाले से बचाएं; 5-6 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP068",
+      "crop_id": 68,
+      "name": {
+        "en": "Fenugreek (Methi)",
+        "hi": "मेथी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy soil; Moderate water; 4–5 irrigations",
+        "hi": "दोमट मिट्टी; 4-5 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP069",
+      "crop_id": 69,
+      "name": {
+        "en": "Cardamom (Small)",
+        "hi": "छोटी इलायची"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Forest loams rich in organic matter; High shade; Drip/Micro-sprinklers",
+        "hi": "छायादार वनीय मिट्टी; ड्रिप/फव्वारा सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP070",
+      "crop_id": 70,
+      "name": {
+        "en": "Black Pepper",
+        "hi": "काली मिर्च"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Acidic laterite/red soils; High rainfall; Drip irrigation during dry months",
+        "hi": "अम्लीय लैटेराइट मिट्टी; शुष्क समय में ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP071",
+      "crop_id": 71,
+      "name": {
+        "en": "Chilli (Red/Green)",
+        "hi": "मिर्च (हरी/लाल)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Kharif / Rabi",
+        "hi": "खरीफ / रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loamy soil; Furrow or drip irrigation",
+        "hi": "अच्छी जल निकासी वाली दोमट; ड्रिप/नाली सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP072",
+      "crop_id": 72,
+      "name": {
+        "en": "Tea",
+        "hi": "चाय"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Well-drained acidic soil (pH 4.5–5.5); Overhead sprinklers in summer",
+        "hi": "अम्लीय ढलानी मिट्टी (pH 4.5-5.5); फव्वारा सिंचाई"
+      },
+      "source_attribution": {
+        "en": "Tea Board of India / UPASI",
+        "hi": "Tea Board of India / UPASI"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP073",
+      "crop_id": 73,
+      "name": {
+        "en": "Coffee (Arabica / Robusta)",
+        "hi": "कॉफी (कॉफ़ी)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained forest loam (pH 6.0–6.5); Sprinkler during blossoming",
+        "hi": "गहरी वनीय दोमट मिट्टी; पुष्पन समय फव्वारा सिंचाई"
+      },
+      "source_attribution": {
+        "en": "Coffee Board of India",
+        "hi": "Coffee Board of India"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP074",
+      "crop_id": 74,
+      "name": {
+        "en": "Coconut",
+        "hi": "नारियल"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Coastal alluvium or laterite; High water requirement (200 L/palm/day)",
+        "hi": "तटीय रेतीली या लैटेराइट मिट्टी; 200 लीटर/पेड़/दिन पानी"
+      },
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP075",
+      "crop_id": 75,
+      "name": {
+        "en": "Cashew",
+        "hi": "काजू"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Waste/sandy laterite soils; Drought hardy; Irrigation in early establishment",
+        "hi": "पथरीली/लैटेराइट मिट्टी; सूखा सहनशील; शुरुआती वर्ष सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR Directorate of Cashew Research",
+        "hi": "ICAR Directorate of Cashew Research"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP076",
+      "crop_id": 76,
+      "name": {
+        "en": "Betel Vine",
+        "hi": "पान (नागवल्ली)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Rich moist loam in shaded conservatory (Bareja); Daily light misting/watering",
+        "hi": "बरेजा (संरक्षित भिठोड़ा) में नमी युक्त दोमट; दैनिक हल्की सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP077",
+      "crop_id": 77,
+      "name": {
+        "en": "Vanilla",
+        "hi": "वैनिला"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Loose organic soil with thick leaf mulch; High humidity; Drip misting",
+        "hi": "पत्तियों के मल्च युक्त जैविक मिट्टी; ड्रिप मिस्टिंग"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP078",
+      "crop_id": 78,
+      "name": {
+        "en": "Isabgol (Psyllium)",
+        "hi": "ईसबगोल"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained sandy soil; Minimal water; 2–3 light irrigations only",
+        "hi": "रेतीली मिट्टी; बहुत कम पानी; केवल 2-3 हल्की सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR DMAPR Anand",
+        "hi": "ICAR DMAPR Anand"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP079",
+      "crop_id": 79,
+      "name": {
+        "en": "Opium Poppy",
+        "hi": "अफीम (पोस्ता)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Rabi",
+        "hi": "रबी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained fertile clay loams; Critical irrigations (5–6 cycles)",
+        "hi": "उपजाऊ दोमट मिट्टी; 5-6 मुख्य सिंचाइयां"
+      },
+      "source_attribution": {
+        "en": "ICAR CIMAP Lucknow",
+        "hi": "ICAR CIMAP Lucknow"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP080",
+      "crop_id": 80,
+      "name": {
+        "en": "Cinnamon",
+        "hi": "दालचीनी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Spices & Plantation",
+        "hi": "मसाले व बागवानी फसलें"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Sandy loam to laterite; Supplemental irrigation during establishment",
+        "hi": "बलुई दोमट से लैटेराइट मिट्टी; शुरुआती वर्षों में सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP081",
+      "crop_id": 81,
+      "name": {
+        "en": "Mango",
+        "hi": "आम"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep alluvial/loamy soil; Drip irrigation during fruit development",
+        "hi": "गहरी जलोढ़/दोमट मिट्टी; फल बनते समय ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP082",
+      "crop_id": 82,
+      "name": {
+        "en": "Banana",
+        "hi": "केला"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial (11–12 mo)",
+        "hi": "बहुवर्षीय (11-12 माह)"
+      },
+      "soil_requirements": {
+        "en": "Deep rich clay loam (pH 6.5–7.5); Drip irrigation (20–25 L/plant/day)",
+        "hi": "गहरी उपजाऊ दोमट; ड्रिप सिंचाई (20-25 लीटर/पौधा/दिन)"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCB Trichy",
+        "hi": "ICAR NRCB Trichy"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP083",
+      "crop_id": 83,
+      "name": {
+        "en": "Citrus (Lemon / Orange)",
+        "hi": "नींबू / संतरा / मौसमी"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Well-drained soil; Sensitive to waterlogging; Drip/Basin watering",
+        "hi": "दोमट मिट्टी; जलजमाव से बचाएं; ड्रिप/थाला सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CCRI Nagpur",
+        "hi": "ICAR CCRI Nagpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP084",
+      "crop_id": 84,
+      "name": {
+        "en": "Guava",
+        "hi": "अमरूद"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Tolerates wide range of soils; Basin/Drip irrigation during flowering",
+        "hi": "विभिन्न प्रकार की मिट्टी; फूल व फल बनते समय सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP085",
+      "crop_id": 85,
+      "name": {
+        "en": "Papaya",
+        "hi": "पपीता"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained loam; Sensitive to waterlogging; Drip irrigation",
+        "hi": "गहरी अच्छी जल निकास वाली दोमट; पानी रुकने न दें"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP086",
+      "crop_id": 86,
+      "name": {
+        "en": "Pomegranate",
+        "hi": "अनार"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep loams to sandy loams; Drip irrigation essential (prevents fruit cracking)",
+        "hi": "गहरी बलुई दोमट; ड्रिप सिंचाई (फल फटने से बचाए)"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCP Solapur",
+        "hi": "ICAR NRCP Solapur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP087",
+      "crop_id": 87,
+      "name": {
+        "en": "Apple",
+        "hi": "सेब"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loams in high altitudes; Micro-sprinklers / Drip",
+        "hi": "पहाड़ी ढलानी दोमट मिट्टी; ड्रिप या माइक्रो-स्प्रिंकलर"
+      },
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP088",
+      "crop_id": 88,
+      "name": {
+        "en": "Grapes",
+        "hi": "अंगूर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained sandy loam; Drip irrigation with fertigation system",
+        "hi": "गहरी बलुई दोमट; ड्रिप फर्टिगेशन प्रणाली"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCG Pune",
+        "hi": "ICAR NRCG Pune"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP089",
+      "crop_id": 89,
+      "name": {
+        "en": "Watermelon",
+        "hi": "तरबूज"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Zaid / Summer",
+        "hi": "जायद / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Deep sandy soils/river beds; Frequent light irrigation",
+        "hi": "नदी कछार व रेतीली मिट्टी; बारंबार हल्की सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP090",
+      "crop_id": 90,
+      "name": {
+        "en": "Muskmelon",
+        "hi": "खरबूजा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Zaid / Summer",
+        "hi": "जायद / गर्मी"
+      },
+      "soil_requirements": {
+        "en": "Well-drained warm sandy soil; Drip/Furrow watering",
+        "hi": "गर्म रेतीली मिट्टी; नाली या ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIVR",
+        "hi": "ICAR IIVR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP091",
+      "crop_id": 91,
+      "name": {
+        "en": "Pineapple",
+        "hi": "अनानास"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Acidic sandy loam; Requires light & uniform watering; Drip systems",
+        "hi": "अम्लीय बलुई दोमट; ड्रिप प्रणाली द्वारा समान नमी"
+      },
+      "source_attribution": {
+        "en": "ICAR KVK / Kerala Ag Univ",
+        "hi": "ICAR KVK / Kerala Ag Univ"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP092",
+      "crop_id": 92,
+      "name": {
+        "en": "Sapota (Chiku)",
+        "hi": "चीकू (सपोटा)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep alluvial/black loams; Regular basin irrigation in summer",
+        "hi": "गहरी काली/दोमट मिट्टी; गर्मियों में नियमित थाला सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP093",
+      "crop_id": 93,
+      "name": {
+        "en": "Litchi",
+        "hi": "लीची"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep fertile alluvial soil; Frequent watering during fruit development",
+        "hi": "गहरी जलोढ़ मिट्टी; फल विकास समय प्रचुर सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR NRCL Muzaffarpur",
+        "hi": "ICAR NRCL Muzaffarpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP094",
+      "crop_id": 94,
+      "name": {
+        "en": "Pear",
+        "hi": "नाशपाती"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Deep well-drained loamy soil; Basin or drip irrigation",
+        "hi": "गहरी दोमट मिट्टी; ड्रिप या थाला सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP095",
+      "crop_id": 95,
+      "name": {
+        "en": "Peach",
+        "hi": "आड़ू"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Light deep sandy loam; Requires critical watering at stone hardening",
+        "hi": "हल्की गहरी बलुई दोमट; गुठली सख्त होते समय सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP096",
+      "crop_id": 96,
+      "name": {
+        "en": "Plum",
+        "hi": "आलूबुखारा"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Well-drained loams with good organic content; Drip irrigated",
+        "hi": "जीवांश युक्त दोमट मिट्टी; ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP097",
+      "crop_id": 97,
+      "name": {
+        "en": "Ber (Indian Plum)",
+        "hi": "बेर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Arid sandy soils; Highly drought tolerant; Irrigated during fruit set",
+        "hi": "शुष्क रेतीली मिट्टी; अत्यधिक सूखा सहनशील; फल बनते समय पानी"
+      },
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP098",
+      "crop_id": 98,
+      "name": {
+        "en": "Custard Apple",
+        "hi": "शरीफा (सीताफल)"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Rocky/gravelly light soils; Drought hardy; Supplemental drip",
+        "hi": "पथरीली/हल्की मिट्टी; सूखा सहनशील; हल्की ड्रिप सिंचाई"
+      },
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP099",
+      "crop_id": 99,
+      "name": {
+        "en": "Amla (Indian Gooseberry)",
+        "hi": "आंवला"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Sodic/saline light soils; High drought resistance; Drip system",
+        "hi": "क्षारीय व ऊसर मिट्टी सहनशील; अत्यधिक सूखा प्रतिरोधी"
+      },
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    },
+    {
+      "record_id": "CROP100",
+      "crop_id": 100,
+      "name": {
+        "en": "Fig",
+        "hi": "अंजीर"
+      },
+      "aliases": {
+        "en": [],
+        "hi": []
+      },
+      "category": {
+        "en": "Fruits & Horticulture",
+        "hi": "फल व फलदार वृक्ष"
+      },
+      "season": {
+        "en": "Perennial",
+        "hi": "बहुवर्षीय"
+      },
+      "soil_requirements": {
+        "en": "Heavy clay to light soils; Drought resistant; Basin irrigation",
+        "hi": "काली व हल्की मिट्टी; सूखा प्रतिरोधी; थाला सिंचाई"
+      },
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "data_origin": {
+        "english_workbook": "crops_db.xlsx",
+        "english_sheet": "Top 100 Indian Crops Data",
+        "hindi_workbook": "cropd_db_hindi.xlsx",
+        "hindi_sheet": "मुख्य 100 फसलें - हिंदी (Hindi)"
+      },
+      "verification_status": "needs_source_verification"
+    }
+  ]
+}

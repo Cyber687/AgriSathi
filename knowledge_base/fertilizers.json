@@ -1,0 +1,2742 @@
+{
+  "schema_version": "1.0",
+  "dataset": "AgriSathi fertilizer knowledge base",
+  "language_support": [
+    "en",
+    "hi"
+  ],
+  "description": "Fertilizer-related fields separated from the supplied crop spreadsheets. Values are transcribed as listed and are not independently verified. Missing units, application timing, and dosage are not inferred.",
+  "record_count": 100,
+  "records": [
+    {
+      "record_id": "FERT001",
+      "crop_id": 1,
+      "crop": {
+        "en": "Rice (Paddy)",
+        "hi": "धान (चावल)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:60",
+        "hi": "120:60:60"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT002",
+      "crop_id": 2,
+      "crop": {
+        "en": "Wheat",
+        "hi": "गेहूँ"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:40",
+        "hi": "120:60:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "CPCB / ICAR Guidelines",
+        "hi": "CPCB / ICAR Guidelines"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT003",
+      "crop_id": 3,
+      "crop": {
+        "en": "Maize (Corn)",
+        "hi": "मक्का"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:40",
+        "hi": "120:60:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Package of Practices",
+        "hi": "ICAR Package of Practices"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT004",
+      "crop_id": 4,
+      "crop": {
+        "en": "Pearl Millet (Bajra)",
+        "hi": "बाजरा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40",
+        "hi": "80:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT005",
+      "crop_id": 5,
+      "crop": {
+        "en": "Sorghum (Jowar)",
+        "hi": "ज्वार"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40",
+        "hi": "80:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT006",
+      "crop_id": 6,
+      "crop": {
+        "en": "Finger Millet (Ragi)",
+        "hi": "रागी (मंडुआ)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:30:30",
+        "hi": "60:30:30"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT007",
+      "crop_id": 7,
+      "crop": {
+        "en": "Barley",
+        "hi": "जौ"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:30:30",
+        "hi": "60:30:30"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Wheat & Barley Institute",
+        "hi": "ICAR Wheat & Barley Institute"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT008",
+      "crop_id": 8,
+      "crop": {
+        "en": "Foxtail Millet (Kangni)",
+        "hi": "कांगनी (टांगुन)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:0",
+        "hi": "40:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT009",
+      "crop_id": 9,
+      "crop": {
+        "en": "Kodo Millet",
+        "hi": "कोदो"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:0",
+        "hi": "40:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT010",
+      "crop_id": 10,
+      "crop": {
+        "en": "Little Millet (Kutki)",
+        "hi": "कुटकी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:0",
+        "hi": "40:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT011",
+      "crop_id": 11,
+      "crop": {
+        "en": "Proso Millet (Chena)",
+        "hi": "चेना (चीना)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:0",
+        "hi": "40:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT012",
+      "crop_id": 12,
+      "crop": {
+        "en": "Barnyard Millet (Sanwa)",
+        "hi": "सांवा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:0",
+        "hi": "40:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Millet Research",
+        "hi": "ICAR Millet Research"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT013",
+      "crop_id": 13,
+      "crop": {
+        "en": "Chickpea (Gram/Chana)",
+        "hi": "चना"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:50:20",
+        "hi": "20:50:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Pulses Research (IIPR)",
+        "hi": "ICAR Pulses Research (IIPR)"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT014",
+      "crop_id": 14,
+      "crop": {
+        "en": "Pigeon Pea (Arhar/Tur)",
+        "hi": "अरहर (तूर)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:50:20",
+        "hi": "20:50:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT015",
+      "crop_id": 15,
+      "crop": {
+        "en": "Green Gram (Moong)",
+        "hi": "मूंग"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [
+        "SRC001"
+      ],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "verified",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT016",
+      "crop_id": 16,
+      "crop": {
+        "en": "Black Gram (Urad)",
+        "hi": "उड़द"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT017",
+      "crop_id": 17,
+      "crop": {
+        "en": "Lentil (Masoor)",
+        "hi": "मसूर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT018",
+      "crop_id": 18,
+      "crop": {
+        "en": "Field Pea (Matar)",
+        "hi": "मटर (दाल/दाना)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT019",
+      "crop_id": 19,
+      "crop": {
+        "en": "Cowpea (Lobia)",
+        "hi": "लोबिया"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT020",
+      "crop_id": 20,
+      "crop": {
+        "en": "Horse Gram (Kulthi)",
+        "hi": "कुलथी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "15:30:15",
+        "hi": "15:30:15"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT021",
+      "crop_id": 21,
+      "crop": {
+        "en": "Moth Bean",
+        "hi": "मोठ"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "10:20:10",
+        "hi": "10:20:10"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT022",
+      "crop_id": 22,
+      "crop": {
+        "en": "Cluster Bean (Guar)",
+        "hi": "ग्वार"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT023",
+      "crop_id": 23,
+      "crop": {
+        "en": "Lathyrus (Khesari Dal)",
+        "hi": "खेसारी (तीवड़ा)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "10:30:0",
+        "hi": "10:30:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIPR",
+        "hi": "ICAR IIPR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT024",
+      "crop_id": 24,
+      "crop": {
+        "en": "Broad Bean (Bakla)",
+        "hi": "बाकला (सेम दाना)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:50:20",
+        "hi": "20:50:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT025",
+      "crop_id": 25,
+      "crop": {
+        "en": "Groundnut (Peanut)",
+        "hi": "मूंगफली"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "25:50:40 (+Gypsum)",
+        "hi": "25:50:40 (+Gypsum)"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Directorate of Groundnut Research",
+        "hi": "ICAR Directorate of Groundnut Research"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT026",
+      "crop_id": 26,
+      "crop": {
+        "en": "Mustard / Rapeseed",
+        "hi": "सरसों / राई"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40 (+Sulfur)",
+        "hi": "80:40:40 (+Sulfur)"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR DRMR Bharatpur",
+        "hi": "ICAR DRMR Bharatpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT027",
+      "crop_id": 27,
+      "crop": {
+        "en": "Soybean",
+        "hi": "सोयाबीन"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "30:60:40",
+        "hi": "30:60:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Indore",
+        "hi": "ICAR IISR Indore"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT028",
+      "crop_id": 28,
+      "crop": {
+        "en": "Sunflower",
+        "hi": "सूरजमुखी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:90:60",
+        "hi": "60:90:60"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT029",
+      "crop_id": 29,
+      "crop": {
+        "en": "Sesame (Til)",
+        "hi": "तिल"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:20",
+        "hi": "40:20:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT030",
+      "crop_id": 30,
+      "crop": {
+        "en": "Castor",
+        "hi": "अरंडी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40",
+        "hi": "80:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT031",
+      "crop_id": 31,
+      "crop": {
+        "en": "Safflower",
+        "hi": "कुसुम (करडी)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:40:20",
+        "hi": "40:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT032",
+      "crop_id": 32,
+      "crop": {
+        "en": "Linseed (Flax)",
+        "hi": "अलसी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:30:30",
+        "hi": "60:30:30"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT033",
+      "crop_id": 33,
+      "crop": {
+        "en": "Niger Seed",
+        "hi": "रामतिल"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:20:0",
+        "hi": "20:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOR Hyderabad",
+        "hi": "ICAR IIOR Hyderabad"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT034",
+      "crop_id": 34,
+      "crop": {
+        "en": "Oil Palm",
+        "hi": "ऑयल पाम (ताड़)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "1200:600:1200 g/tree",
+        "hi": "1200:600:1200 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIOPR Pedavegi",
+        "hi": "ICAR IIOPR Pedavegi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT035",
+      "crop_id": 35,
+      "crop": {
+        "en": "Sugarcane",
+        "hi": "गन्ना"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "250:75:75",
+        "hi": "250:75:75"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Sugarcane Breeding Institute",
+        "hi": "ICAR Sugarcane Breeding Institute"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT036",
+      "crop_id": 36,
+      "crop": {
+        "en": "Cotton",
+        "hi": "कपास"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:60",
+        "hi": "120:60:60"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CICR Nagpur",
+        "hi": "ICAR CICR Nagpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT037",
+      "crop_id": 37,
+      "crop": {
+        "en": "Jute",
+        "hi": "जूट (पटसन)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40",
+        "hi": "80:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CRIJAF Barrackpore",
+        "hi": "ICAR CRIJAF Barrackpore"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT038",
+      "crop_id": 38,
+      "crop": {
+        "en": "Tobacco",
+        "hi": "तंबाकू"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:50:80",
+        "hi": "60:50:80"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CTRI Rajahmundry",
+        "hi": "ICAR CTRI Rajahmundry"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT039",
+      "crop_id": 39,
+      "crop": {
+        "en": "Mesta (Kenaf)",
+        "hi": "मेस्टा (पटुआ)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:20:20",
+        "hi": "40:20:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT040",
+      "crop_id": 40,
+      "crop": {
+        "en": "Sunhemp",
+        "hi": "सनई"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:40:20",
+        "hi": "20:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CRIJAF",
+        "hi": "ICAR CRIJAF"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT041",
+      "crop_id": 41,
+      "crop": {
+        "en": "Rubber",
+        "hi": "रबर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "30:30:30 (g/tree)",
+        "hi": "30:30:30 (g/tree)"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "Rubber Research Institute of India",
+        "hi": "Rubber Research Institute of India"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT042",
+      "crop_id": 42,
+      "crop": {
+        "en": "Arecanut (Betel Nut)",
+        "hi": "सुपारी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:40:140 g/tree",
+        "hi": "100:40:140 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT043",
+      "crop_id": 43,
+      "crop": {
+        "en": "Potato",
+        "hi": "आलू"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "150:100:120",
+        "hi": "150:100:120"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CPRI Shimla",
+        "hi": "ICAR CPRI Shimla"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT044",
+      "crop_id": 44,
+      "crop": {
+        "en": "Tomato",
+        "hi": "टमाटर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "150:80:100",
+        "hi": "150:80:100"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT045",
+      "crop_id": 45,
+      "crop": {
+        "en": "Onion",
+        "hi": "प्याज"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:50:50 (+Sulfur)",
+        "hi": "100:50:50 (+Sulfur)"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT046",
+      "crop_id": 46,
+      "crop": {
+        "en": "Garlic",
+        "hi": "लहसुन"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:50:50",
+        "hi": "100:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR DOGR Pune",
+        "hi": "ICAR DOGR Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT047",
+      "crop_id": 47,
+      "crop": {
+        "en": "Brinjal (Eggplant)",
+        "hi": "बैंगन"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:50:50",
+        "hi": "100:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT048",
+      "crop_id": 48,
+      "crop": {
+        "en": "Okra (Lady Finger)",
+        "hi": "भिंडी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:50:50",
+        "hi": "80:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT049",
+      "crop_id": 49,
+      "crop": {
+        "en": "Cauliflower",
+        "hi": "फूलगोभी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:80:80",
+        "hi": "120:80:80"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT050",
+      "crop_id": 50,
+      "crop": {
+        "en": "Cabbage",
+        "hi": "पत्तागोभी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:60",
+        "hi": "120:60:60"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT051",
+      "crop_id": 51,
+      "crop": {
+        "en": "Bitter Gourd",
+        "hi": "करेला"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:50:50",
+        "hi": "80:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT052",
+      "crop_id": 52,
+      "crop": {
+        "en": "Bottle Gourd",
+        "hi": "लौकी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "70:40:40",
+        "hi": "70:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT053",
+      "crop_id": 53,
+      "crop": {
+        "en": "Cucumber",
+        "hi": "खीरा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:40:40",
+        "hi": "60:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT054",
+      "crop_id": 54,
+      "crop": {
+        "en": "Pumpkin",
+        "hi": "कद्दू (काशीफल)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:40:40",
+        "hi": "60:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT055",
+      "crop_id": 55,
+      "crop": {
+        "en": "Carrot",
+        "hi": "गाजर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:40:50",
+        "hi": "60:40:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT056",
+      "crop_id": 56,
+      "crop": {
+        "en": "Radish",
+        "hi": "मूली"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "50:30:40",
+        "hi": "50:30:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT057",
+      "crop_id": 57,
+      "crop": {
+        "en": "Spinach (Palak)",
+        "hi": "पालक"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:30:30",
+        "hi": "60:30:30"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT058",
+      "crop_id": 58,
+      "crop": {
+        "en": "Sweet Potato",
+        "hi": "शकरकंद"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "50:25:50",
+        "hi": "50:25:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CTCRI Thiruvananthapuram",
+        "hi": "ICAR CTCRI Thiruvananthapuram"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT059",
+      "crop_id": 59,
+      "crop": {
+        "en": "Elephant Foot Yam",
+        "hi": "जिमीकंद (सूरन)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:50:100",
+        "hi": "100:50:100"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT060",
+      "crop_id": 60,
+      "crop": {
+        "en": "Colocasia (Taro)",
+        "hi": "अरबी (घुइयां)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:80",
+        "hi": "80:40:80"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CTCRI",
+        "hi": "ICAR CTCRI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT061",
+      "crop_id": 61,
+      "crop": {
+        "en": "Capsicum (Bell Pepper)",
+        "hi": "शिमला मिर्च"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "150:100:100",
+        "hi": "150:100:100"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT062",
+      "crop_id": 62,
+      "crop": {
+        "en": "Green Peas",
+        "hi": "हरी मटर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "25:60:40",
+        "hi": "25:60:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR Varanasi",
+        "hi": "ICAR IIVR Varanasi"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT063",
+      "crop_id": 63,
+      "crop": {
+        "en": "Turmeric",
+        "hi": "हल्दी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "60:50:120",
+        "hi": "60:50:120"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT064",
+      "crop_id": 64,
+      "crop": {
+        "en": "Ginger",
+        "hi": "अदरक"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "75:50:50",
+        "hi": "75:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT065",
+      "crop_id": 65,
+      "crop": {
+        "en": "Cumin (Jeera)",
+        "hi": "जीरा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "30:20:0",
+        "hi": "30:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT066",
+      "crop_id": 66,
+      "crop": {
+        "en": "Coriander",
+        "hi": "धनिया"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:30:20",
+        "hi": "40:30:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT067",
+      "crop_id": 67,
+      "crop": {
+        "en": "Fennel (Saunf)",
+        "hi": "सौंफ"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "90:40:0",
+        "hi": "90:40:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT068",
+      "crop_id": 68,
+      "crop": {
+        "en": "Fenugreek (Methi)",
+        "hi": "मेथी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "25:40:20",
+        "hi": "25:40:20"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCSS Ajmer",
+        "hi": "ICAR NRCSS Ajmer"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT069",
+      "crop_id": 69,
+      "crop": {
+        "en": "Cardamom (Small)",
+        "hi": "छोटी इलायची"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "75:75:150",
+        "hi": "75:75:150"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT070",
+      "crop_id": 70,
+      "crop": {
+        "en": "Black Pepper",
+        "hi": "काली मिर्च"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:40:140 g/vine",
+        "hi": "100:40:140 g/vine"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT071",
+      "crop_id": 71,
+      "crop": {
+        "en": "Chilli (Red/Green)",
+        "hi": "मिर्च (हरी/लाल)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "120:60:60",
+        "hi": "120:60:60"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR Bengaluru",
+        "hi": "ICAR IIHR Bengaluru"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT072",
+      "crop_id": 72,
+      "crop": {
+        "en": "Tea",
+        "hi": "चाय"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "150:40:150",
+        "hi": "150:40:150"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "Tea Board of India / UPASI",
+        "hi": "Tea Board of India / UPASI"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT073",
+      "crop_id": 73,
+      "crop": {
+        "en": "Coffee (Arabica / Robusta)",
+        "hi": "कॉफी (कॉफ़ी)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "140:100:140",
+        "hi": "140:100:140"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "Coffee Board of India",
+        "hi": "Coffee Board of India"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT074",
+      "crop_id": 74,
+      "crop": {
+        "en": "Coconut",
+        "hi": "नारियल"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:320:1200 g/palm",
+        "hi": "500:320:1200 g/palm"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CPCRI Kasaragod",
+        "hi": "ICAR CPCRI Kasaragod"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT075",
+      "crop_id": 75,
+      "crop": {
+        "en": "Cashew",
+        "hi": "काजू"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:125:125 g/tree",
+        "hi": "500:125:125 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR Directorate of Cashew Research",
+        "hi": "ICAR Directorate of Cashew Research"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT076",
+      "crop_id": 76,
+      "crop": {
+        "en": "Betel Vine",
+        "hi": "पान (नागवल्ली)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "150:100:100",
+        "hi": "150:100:100"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT077",
+      "crop_id": 77,
+      "crop": {
+        "en": "Vanilla",
+        "hi": "वैनिला"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "40:80:100 g/vine",
+        "hi": "40:80:100 g/vine"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT078",
+      "crop_id": 78,
+      "crop": {
+        "en": "Isabgol (Psyllium)",
+        "hi": "ईसबगोल"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "30:20:0",
+        "hi": "30:20:0"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR DMAPR Anand",
+        "hi": "ICAR DMAPR Anand"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT079",
+      "crop_id": 79,
+      "crop": {
+        "en": "Opium Poppy",
+        "hi": "अफीम (पोस्ता)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "90:50:40",
+        "hi": "90:50:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CIMAP Lucknow",
+        "hi": "ICAR CIMAP Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT080",
+      "crop_id": 80,
+      "crop": {
+        "en": "Cinnamon",
+        "hi": "दालचीनी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "20:18:25 g/tree",
+        "hi": "20:18:25 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IISR Kozhikode",
+        "hi": "ICAR IISR Kozhikode"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT081",
+      "crop_id": 81,
+      "crop": {
+        "en": "Mango",
+        "hi": "आम"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:250:500 g/tree",
+        "hi": "500:250:500 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT082",
+      "crop_id": 82,
+      "crop": {
+        "en": "Banana",
+        "hi": "केला"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "200:50:300 g/plant",
+        "hi": "200:50:300 g/plant"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCB Trichy",
+        "hi": "ICAR NRCB Trichy"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT083",
+      "crop_id": 83,
+      "crop": {
+        "en": "Citrus (Lemon / Orange)",
+        "hi": "नींबू / संतरा / मौसमी"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "600:200:300 g/tree",
+        "hi": "600:200:300 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CCRI Nagpur",
+        "hi": "ICAR CCRI Nagpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT084",
+      "crop_id": 84,
+      "crop": {
+        "en": "Guava",
+        "hi": "अमरूद"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:200:500 g/tree",
+        "hi": "500:200:500 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT085",
+      "crop_id": 85,
+      "crop": {
+        "en": "Papaya",
+        "hi": "पपीता"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "250:250:500 g/plant",
+        "hi": "250:250:500 g/plant"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT086",
+      "crop_id": 86,
+      "crop": {
+        "en": "Pomegranate",
+        "hi": "अनार"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "625:250:500 g/tree",
+        "hi": "625:250:500 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCP Solapur",
+        "hi": "ICAR NRCP Solapur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT087",
+      "crop_id": 87,
+      "crop": {
+        "en": "Apple",
+        "hi": "सेब"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "700:350:700 g/tree",
+        "hi": "700:350:700 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT088",
+      "crop_id": 88,
+      "crop": {
+        "en": "Grapes",
+        "hi": "अंगूर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:500:1000 kg/ha",
+        "hi": "500:500:1000 kg/ha"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCG Pune",
+        "hi": "ICAR NRCG Pune"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT089",
+      "crop_id": 89,
+      "crop": {
+        "en": "Watermelon",
+        "hi": "तरबूज"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "100:50:50",
+        "hi": "100:50:50"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT090",
+      "crop_id": 90,
+      "crop": {
+        "en": "Muskmelon",
+        "hi": "खरबूजा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "80:40:40",
+        "hi": "80:40:40"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIVR",
+        "hi": "ICAR IIVR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT091",
+      "crop_id": 91,
+      "crop": {
+        "en": "Pineapple",
+        "hi": "अनानास"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "12:4:12 g/plant",
+        "hi": "12:4:12 g/plant"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR KVK / Kerala Ag Univ",
+        "hi": "ICAR KVK / Kerala Ag Univ"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT092",
+      "crop_id": 92,
+      "crop": {
+        "en": "Sapota (Chiku)",
+        "hi": "चीकू (सपोटा)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "1000:500:1000 g/tree",
+        "hi": "1000:500:1000 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT093",
+      "crop_id": 93,
+      "crop": {
+        "en": "Litchi",
+        "hi": "लीची"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "600:300:600 g/tree",
+        "hi": "600:300:600 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR NRCL Muzaffarpur",
+        "hi": "ICAR NRCL Muzaffarpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT094",
+      "crop_id": 94,
+      "crop": {
+        "en": "Pear",
+        "hi": "नाशपाती"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "600:300:600 g/tree",
+        "hi": "600:300:600 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT095",
+      "crop_id": 95,
+      "crop": {
+        "en": "Peach",
+        "hi": "आड़ू"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:250:500 g/tree",
+        "hi": "500:250:500 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT096",
+      "crop_id": 96,
+      "crop": {
+        "en": "Plum",
+        "hi": "आलूबुखारा"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:250:500 g/tree",
+        "hi": "500:250:500 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CITH Srinagar",
+        "hi": "ICAR CITH Srinagar"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT097",
+      "crop_id": 97,
+      "crop": {
+        "en": "Ber (Indian Plum)",
+        "hi": "बेर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:250:250 g/tree",
+        "hi": "500:250:250 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "CAZRI Jodhpur",
+        "hi": "CAZRI Jodhpur"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT098",
+      "crop_id": 98,
+      "crop": {
+        "en": "Custard Apple",
+        "hi": "शरीफा (सीताफल)"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "250:125:125 g/tree",
+        "hi": "250:125:125 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR IIHR",
+        "hi": "ICAR IIHR"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT099",
+      "crop_id": 99,
+      "crop": {
+        "en": "Amla (Indian Gooseberry)",
+        "hi": "आंवला"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "1000:500:750 g/tree",
+        "hi": "1000:500:750 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "ICAR CISH Lucknow",
+        "hi": "ICAR CISH Lucknow"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    },
+    {
+      "record_id": "FERT100",
+      "crop_id": 100,
+      "crop": {
+        "en": "Fig",
+        "hi": "अंजीर"
+      },
+      "fertilizer_requirement_as_listed": {
+        "en": "500:250:250 g/tree",
+        "hi": "500:250:250 g/tree"
+      },
+      "nutrient_basis": "N:P:K as stated in source spreadsheet; unit/context may be incomplete",
+      "application_dosage": null,
+      "application_timing": null,
+      "soil_test_required": true,
+      "source_attribution": {
+        "en": "State Agricultural University",
+        "hi": "State Agricultural University"
+      },
+      "source_ids": [],
+      "source_workbooks": [
+        "crops_db.xlsx",
+        "cropd_db_hindi.xlsx"
+      ],
+      "verification_status": "needs_source_verification",
+      "safety_note": "Do not treat the listed N:P:K value as a complete fertilizer prescription. Confirm crop, region, soil test, growth stage, unit, and recommendation from a relevant official agricultural source."
+    }
+  ]
+}

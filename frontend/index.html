@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="AgriSathi - Multilingual agricultural assistance for Indian farmers."
+    >
+
+    <title>AgriSathi | Smart Farming Assistant</title>
+
+    <link rel="stylesheet" href="/frontend/style.css?v=2">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="icon" type="image/svg+xml" href="/frontend/favicon.svg">
+    <link rel="manifest" href="/frontend/manifest.json">
+    <meta name="theme-color" content="#174b34">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <a href="/" class="brand">
+            <div class="brand-icon">🌱</div>
+
+            <div>
+                <h1>AgriSathi</h1>
+                <span>SMART FARMING ASSISTANT</span>
+            </div>
+        </a>
+
+        <div class="sidebar-section">
+            <p class="section-label">WORKSPACE</p>
+
+            <button class="nav-item active" data-view="chat">
+                <span class="nav-icon">✳</span>
+                <span>AI Assistant</span>
+            </button>
+
+            <button class="nav-item" data-view="weather">
+                <span class="nav-icon">☀</span>
+                <span>Weather</span>
+            </button>
+
+            <button class="nav-item" data-view="mandi">
+                <span class="nav-icon">₹</span>
+                <span>Mandi Prices</span>
+            </button>
+        </div>
+
+        <div class="sidebar-section">
+            <p class="section-label">FARMING TOOLS</p>
+
+            <button
+                class="nav-item"
+                data-question="Tell me about wheat cultivation."
+            >
+                <span class="nav-icon">🌾</span>
+                <span>Crop Guidance</span>
+            </button>
+
+            <button
+                class="nav-item"
+                data-question="How can I manage pests in rice?"
+            >
+                <span class="nav-icon">🛡</span>
+                <span>Pest Management</span>
+            </button>
+
+            <button
+                class="nav-item"
+                data-question="What is the irrigation requirement for wheat?"
+            >
+                <span class="nav-icon">💧</span>
+                <span>Irrigation</span>
+            </button>
+
+            <button
+                class="nav-item"
+                data-question="What is the fertilizer requirement for rice?"
+            >
+                <span class="nav-icon">🌿</span>
+                <span>Fertilizer Advice</span>
+            </button>
+        </div>
+
+        <div class="sidebar-bottom">
+
+            <div class="connection-card">
+                <span class="connection-dot" id="connectionDot"></span>
+
+                <div>
+                    <strong id="connectionText">Connecting...</strong>
+                    <p>Status</p>
+                </div>
+            </div>
+
+            <button class="nav-item" id="themeToggle">
+                <span class="nav-icon" id="themeIcon">☾</span>
+                <span id="themeLabel">Dark mode</span>
+            </button>
+
+            <div class="profile-card">
+                <div class="profile-avatar">🌱</div>
+
+                <div>
+                    <strong>Farmer Workspace</strong>
+                    <span>Personal farming assistant</span>
+                </div>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= MAIN AREA ================= -->
+
+    <main class="main-area">
+
+        <!-- TOP NAVIGATION -->
+
+        <header class="topbar">
+
+            <div class="topbar-left">
+
+                <button
+                    class="icon-button mobile-menu"
+                    id="mobileMenu"
+                    aria-label="Open navigation"
+                >
+                    ☰
+                </button>
+
+                <div>
+                    <p class="eyebrow">YOUR DIGITAL FARMING PARTNER</p>
+                    <h2 id="pageTitle">Agricultural Assistant</h2>
+                </div>
+
+            </div>
+
+            <div class="topbar-right">
+
+                <div class="location-control">
+                    <span>📍</span>
+
+                    <input
+                        id="locationInput"
+                        type="text"
+                        value=""
+                        placeholder="Enter your city"
+                        aria-label="Farming location"
+                    >
+
+                    <button
+                        id="saveLocation"
+                        class="location-save"
+                        title="Save location"
+                    >
+                        ✓
+                    </button>
+                </div>
+
+                <select id="languageSelect" aria-label="Choose language">
+                    <option value="en">English</option>
+                    <option value="hi">हिन्दी (Hindi)</option>
+                    <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+                    <option value="ta">தமிழ் (Tamil)</option>
+                </select>
+
+                <div class="header-avatar">🌾</div>
+
+            </div>
+
+        </header>
+
+
+        <!-- PAGE CONTENT -->
+
+        <div class="content-area">
+
+            <!-- DASHBOARD WELCOME -->
+
+            <section class="welcome-section" id="welcomeSection">
+
+                <div class="welcome-copy">
+
+                    <div class="welcome-badge">
+                        <span>✦</span>
+                        INTELLIGENT FARMING
+                    </div>
+
+                    <h1>
+                        Growing better,
+                        <span>together.</span>
+                    </h1>
+
+                    <p>
+                        Your farming companion for crop guidance,
+                        weather updates, market prices, and
+                        responsible agricultural decisions.
+                    </p>
+
+                    <button
+                        class="primary-button"
+                        id="startChatButton"
+                    >
+                        Ask AgriSathi
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+                <div class="welcome-illustration" aria-hidden="true">
+
+                    <div class="illustration-sun"></div>
+
+                    <div class="illustration-hill hill-back"></div>
+                    <div class="illustration-hill hill-front"></div>
+
+                    <div class="illustration-plant plant-one">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="illustration-plant plant-two">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="illustration-plant plant-three">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="illustration-caption">
+                        <span>🌱</span>
+                        <div>
+                            <strong>Smarter agriculture</strong>
+                            <small>Better-informed decisions</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- SUMMARY CARDS -->
+
+            <section class="section-block">
+
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">FARM AT A GLANCE</p>
+                        <h2>Your farming dashboard</h2>
+                    </div>
+
+                    <span class="live-label">
+                        <span></span>
+                        LIVE DATA WHEN AVAILABLE
+                    </span>
+                </div>
+
+
+                <div class="dashboard-grid">
+
+                    <!-- WEATHER CARD -->
+
+                    <article class="dashboard-card weather-card">
+
+                        <div class="card-topline">
+                            <div class="card-icon weather-icon">☀</div>
+
+                            <span class="card-tag">WEATHER</span>
+                        </div>
+
+                        <p class="card-label">Current conditions</p>
+
+                        <h3 id="temperature">--°C</h3>
+
+                        <p id="weatherDescription" class="muted-text">
+                            Enter a location to retrieve weather.
+                        </p>
+
+                        <div class="weather-details">
+
+                            <div>
+                                <span>Humidity</span>
+                                <strong id="humidity">--%</strong>
+                            </div>
+
+                            <div>
+                                <span>Wind</span>
+                                <strong id="wind">-- km/h</strong>
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <span id="weatherUpdated">Not updated</span>
+
+                            <button
+                                class="text-button"
+                                id="refreshWeather"
+                            >
+                                Refresh ↻
+                            </button>
+                        </div>
+
+                    </article>
+
+
+                    <!-- MANDI CARD -->
+
+                    <article class="dashboard-card mandi-card">
+
+                        <div class="card-topline">
+                            <div class="card-icon mandi-icon">₹</div>
+
+                            <span class="card-tag">MARKET</span>
+                        </div>
+
+                        <p class="card-label">Modal mandi price</p>
+
+                        <h3 id="mandiPrice">—</h3>
+
+                        <p class="muted-text" id="mandiMarket">
+                            Select a crop and market.
+                        </p>
+
+                        <div class="market-controls">
+
+                            <select id="cropSelect" aria-label="Crop">
+                                <option value="Wheat">Wheat</option>
+                                <option value="Rice">Rice</option>
+                                <option value="Maize">Maize</option>
+                                <option value="Mustard">Mustard</option>
+                                <option value="Cotton">Cotton</option>
+                                <option value="Potato">Potato</option>
+                                <option value="Tomato">Tomato</option>
+                                <option value="Onion">Onion</option>
+                            </select>
+
+                            <button
+                                class="small-button"
+                                id="refreshMandi"
+                            >
+                                Get price
+                            </button>
+
+                        </div>
+
+                        <p class="market-note" id="mandiChange">
+                            Prices depend on market and date.
+                        </p>
+
+                    </article>
+
+
+                    <!-- SAFETY CARD -->
+
+                    <article class="dashboard-card safety-card">
+
+                        <div class="card-topline">
+                            <div class="card-icon safety-icon">🛡</div>
+
+                            <span class="card-tag">SAFETY</span>
+                        </div>
+
+                        <p class="card-label">Responsible guidance</p>
+
+                        <h3>Evidence first</h3>
+
+                        <p class="muted-text">
+                            Recommendations should be checked
+                            against reliable agricultural sources.
+                        </p>
+
+                        <div class="safety-status">
+                            <span class="safety-status-icon">✓</span>
+
+                            <span id="verificationStatus">
+                                Waiting for your question
+                            </span>
+                        </div>
+
+                        <p class="small-note">
+                            Unverified chemical dosages are not provided.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- CHAT AREA -->
+
+            <section class="chat-section" id="chatSection">
+
+                <div class="section-heading chat-heading">
+
+                    <div>
+                        <p class="eyebrow">YOUR FARMING COMPANION</p>
+                        <h2>Ask AgriSathi</h2>
+                        <p class="muted-text">
+                            Ask questions in your preferred language.
+                        </p>
+                    </div>
+
+                    <button
+                        class="outline-button"
+                        id="clearChat"
+                    >
+                        ＋ New conversation
+                    </button>
+
+                </div>
+
+
+                <div class="chat-panel">
+
+                    <div class="chat-welcome" id="chatWelcome">
+
+                        <div class="chat-logo">🌱</div>
+
+                        <h3>How can I help your farm today?</h3>
+
+                        <p>
+                            Ask about crops, pests, irrigation,
+                            fertilizer, weather, or market prices.
+                        </p>
+
+                        <div class="suggestion-grid">
+
+                            <button
+                                class="suggestion-card"
+                                data-question="Tell me about wheat cultivation."
+                            >
+                                <span class="suggestion-icon">🌾</span>
+
+                                <span>
+                                    <strong>Crop guidance</strong>
+                                    <small>Growing requirements and seasons</small>
+                                </span>
+
+                                <span class="suggestion-arrow">↗</span>
+                            </button>
+
+
+                            <button
+                                class="suggestion-card"
+                                data-question="How can I manage pests in rice?"
+                            >
+                                <span class="suggestion-icon">🛡</span>
+
+                                <span>
+                                    <strong>Pest management</strong>
+                                    <small>Identification and safe practices</small>
+                                </span>
+
+                                <span class="suggestion-arrow">↗</span>
+                            </button>
+
+
+                            <button
+                                class="suggestion-card"
+                                data-question="What should I consider before irrigating my crop?"
+                            >
+                                <span class="suggestion-icon">💧</span>
+
+                                <span>
+                                    <strong>Irrigation</strong>
+                                    <small>Water and crop requirements</small>
+                                </span>
+
+                                <span class="suggestion-arrow">↗</span>
+                            </button>
+
+
+                            <button
+                                class="suggestion-card"
+                                data-question="Why is soil testing important before applying fertilizer?"
+                            >
+                                <span class="suggestion-icon">🌱</span>
+
+                                <span>
+                                    <strong>Soil and fertilizer</strong>
+                                    <small>Understand nutrient requirements</small>
+                                </span>
+
+                                <span class="suggestion-arrow">↗</span>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Chat messages are inserted here -->
+
+                    <div
+                        class="chat-thread"
+                        id="chatThread"
+                        aria-live="polite"
+                    ></div>
+
+
+                    <!-- Typing indicator -->
+
+                    <div
+                        class="typing-indicator hidden"
+                        id="typingIndicator"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <p>AgriSathi is preparing an answer...</p>
+                    </div>
+
+
+                    <!-- CHAT INPUT -->
+
+                    <form class="chat-form" id="chatForm">
+
+                        <div class="input-toolbar">
+
+                            <span class="input-label">
+                                YOUR QUESTION
+                            </span>
+
+                            <span id="characterCount">0 / 2000</span>
+
+                        </div>
+
+                        <textarea
+                            id="questionInput"
+                            rows="2"
+                            maxlength="2000"
+                            placeholder="Ask about your crop, soil, irrigation, pests..."
+                            required
+                        ></textarea>
+
+                        <div class="chat-form-bottom">
+
+                            <div class="input-tools">
+
+                                <button
+                                    type="button"
+                                    class="tool-button"
+                                    id="voiceInput"
+                                    title="Speak your question"
+                                >
+                                    🎙 <span>Voice</span>
+                                </button>
+
+                                <button
+                                    type="button"
+                                    class="tool-button"
+                                    id="voiceOutput"
+                                    title="Stop speaking"
+                                >
+                                    🔊 <span>Stop audio</span>
+                                </button>
+
+                                <span
+                                    id="voiceStatus"
+                                    class="voice-status"
+                                    aria-live="polite"
+                                ></span>
+
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="send-button"
+                                id="sendButton"
+                            >
+                                <span>Send question</span>
+                                <span>➤</span>
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                    <div class="chat-disclaimer">
+                        <span>ⓘ</span>
+
+                        Agricultural guidance depends on local conditions.
+                        Check sources and follow applicable official advice.
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- FOOTER -->
+
+            <footer class="footer">
+
+                <div class="footer-brand">
+                    <span>🌱</span>
+                    <strong>AgriSathi</strong>
+                </div>
+
+                <p>
+                    Technology supporting informed farming decisions.
+                </p>
+
+                <span id="footerConnection">
+                    Backend status: checking...
+                </span>
+
+            </footer>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<!-- TOAST NOTIFICATIONS -->
+
+<div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+></div>
+
+
+<script src="/frontend/script.js?v=2"></script>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/frontend/sw.js');
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+{
+  "_metadata": {
+    "dataset_name": "AgriSathi Chemical Knowledge Base",
+    "version": "1.0.0",
+    "description": "A safety-focused knowledge base for verified agricultural chemical and pesticide recommendations in India.",
+    "country": "India",
+    "supported_languages": [
+      "en",
+      "hi"
+    ],
+    "record_type": "chemical",
+    "data_policy": {
+      "allow_unverified_chemicals": false,
+      "allow_unverified_dosages": false,
+      "allow_model_generated_dosages": false,
+      "allow_inferred_application_instructions": false,
+      "require_crop_pest_compatibility": true,
+      "require_authoritative_sources": true,
+      "require_product_label_verification": true,
+      "require_formulation_match": true
+    },
+    "authoritative_source_registry": [
+      {
+        "source_id": "SRC006",
+        "name": "Directorate of Plant Protection, Quarantine and Storage",
+        "abbreviation": "DPPQ&S",
+        "verification_required": true
+      },
+      {
+        "source_id": "SRC007",
+        "name": "Central Insecticides Board and Registration Committee",
+        "abbreviation": "CIBRC",
+        "verification_required": true
+      }
+    ],
+    "important_note": "The presence of a chemical in this file does not establish that it is registered, approved, or suitable for a particular crop or pest. Recommendations must pass all required safety and source-verification checks."
+  },
+  "chemicals": [
+    {
+      "chemical_id": "CHEM001",
+      "name": {
+        "en": "Unverified chemical recommendation",
+        "hi": "असत्यापित रासायनिक अनुशंसा"
+      },
+      "active_ingredient": null,
+      "formulation": null,
+      "product_name": null,
+      "registration_number": null,
+      "chemical_category": null,
+      "crop_refs": [],
+      "pest_refs": [],
+      "target_disease_refs": [],
+      "application_method": null,
+      "application_dosage": null,
+      "dosage_unit": null,
+      "water_volume": null,
+      "application_timing": null,
+      "waiting_period_days": null,
+      "reentry_interval": null,
+      "maximum_applications": null,
+      "safety_precautions": [],
+      "first_aid_instructions": null,
+      "source_refs": [],
+      "label_evidence": {
+        "verified": false,
+        "document_reference": null,
+        "document_date": null,
+        "crop_match_confirmed": false,
+        "target_match_confirmed": false,
+        "formulation_match_confirmed": false,
+        "application_instructions_confirmed": false
+      },
+      "verification": {
+        "status": "unverified",
+        "verified_by": null,
+        "verified_at": null,
+        "verification_notes": "Placeholder record only. No chemical product or dosage has been verified."
+      },
+      "advisory_status": "blocked_pending_verification",
+      "safety_note": {
+        "en": "Do not recommend or apply a chemical based on this placeholder. Verify the exact registered product, formulation, crop, target pest or disease, and applicable product-label instructions before providing advice.",
+        "hi": "इस प्लेसहोल्डर के आधार पर किसी रसायन की अनुशंसा या उसका उपयोग न करें। सलाह देने से पहले पंजीकृत उत्पाद, उसका फॉर्मूलेशन, फसल, लक्षित कीट या रोग तथा लागू उत्पाद-लेबल निर्देशों का सत्यापन करें।"
+      }
+    }
+  ]
+}

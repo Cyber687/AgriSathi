@@ -1,0 +1,311 @@
+{
+  "metadata": {
+    "project": "AgriSathi",
+    "version": "1.0.0",
+    "description": "Source registry for verifying agricultural information used by AgriSathi.",
+    "default_language": "en",
+    "supported_languages": [
+      "en",
+      "hi"
+    ],
+    "verification_policy": "Every agricultural claim must be checked against a relevant source before being presented as verified.",
+    "chemical_safety_policy": "Chemical products, application rates, dosage, and waiting periods must not be recommended without appropriate authoritative verification."
+  },
+  "sources": [
+    {
+      "source_id": "SRC001",
+      "name": "Indian Council of Agricultural Research",
+      "short_name": "ICAR",
+      "url": "https://icar.org.in/",
+      "organization_type": "government_research_organization",
+      "country": "India",
+      "language": [
+        "en",
+        "hi"
+      ],
+      "information_categories": [
+        "crop_information",
+        "crop_production",
+        "fertilizer_advice",
+        "pest_management",
+        "irrigation",
+        "agricultural_research"
+      ],
+      "verification_priority": "high",
+      "notes": "Use relevant ICAR publications and research resources. Verify the specific publication and its applicability to the crop and region."
+    },
+    {
+      "source_id": "SRC002",
+      "name": "Indian Institute of Soil Science",
+      "short_name": "IISS",
+      "url": "https://www.iiss.res.in/",
+      "organization_type": "government_research_institute",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "soil_requirements",
+        "soil_health",
+        "nutrient_management",
+        "fertilizer_advice"
+      ],
+      "verification_priority": "high",
+      "notes": "Use relevant publications for soil properties, soil health, and nutrient management."
+    },
+    {
+      "source_id": "SRC003",
+      "name": "Indian Institute of Horticultural Research",
+      "short_name": "IIHR",
+      "url": "https://iihr.res.in/",
+      "organization_type": "government_research_institute",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "horticulture",
+        "fruit_crops",
+        "vegetable_crops",
+        "pest_management",
+        "crop_production"
+      ],
+      "verification_priority": "high",
+      "notes": "Consult crop-specific horticultural publications and recommendations."
+    },
+    {
+      "source_id": "SRC004",
+      "name": "Indian Institute of Rice Research",
+      "short_name": "IIRR",
+      "url": "https://icar-iirr.org/",
+      "organization_type": "government_research_institute",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "rice",
+        "crop_production",
+        "irrigation",
+        "fertilizer_advice",
+        "pest_management"
+      ],
+      "verification_priority": "high",
+      "notes": "Use rice-specific research publications and recommendations where relevant."
+    },
+    {
+      "source_id": "SRC005",
+      "name": "Indian Institute of Wheat and Barley Research",
+      "short_name": "IIWBR",
+      "url": "https://iiwbr.icar.gov.in/",
+      "organization_type": "government_research_institute",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "wheat",
+        "barley",
+        "crop_production",
+        "fertilizer_advice",
+        "irrigation",
+        "pest_management"
+      ],
+      "verification_priority": "high",
+      "notes": "Use relevant wheat and barley publications for crop-specific recommendations."
+    },
+    {
+      "source_id": "SRC006",
+      "name": "Directorate of Plant Protection, Quarantine and Storage",
+      "short_name": "DPPQ&S",
+      "url": "https://ppqs.gov.in/",
+      "organization_type": "government_directorate",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "plant_protection",
+        "pest_management",
+        "pesticide_regulation",
+        "chemical_safety"
+      ],
+      "verification_priority": "high",
+      "notes": "Consult relevant official pesticide registrations, regulatory information, and plant-protection resources. Registration alone does not establish that a product is suitable for a particular crop, pest, or use."
+    },
+    {
+      "source_id": "SRC007",
+      "name": "Central Insecticides Board and Registration Committee",
+      "short_name": "CIBRC",
+      "url": "https://ppqs.gov.in/divisions/cib-rc",
+      "organization_type": "government_regulatory_body",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "pesticide_registration",
+        "approved_uses",
+        "chemical_safety",
+        "pest_management"
+      ],
+      "verification_priority": "high",
+      "notes": "Verify the exact product, formulation, crop, target pest, approved application method, and label directions. Never infer dosage from a general pest-control statement."
+    },
+    {
+      "source_id": "SRC008",
+      "name": "India Meteorological Department",
+      "short_name": "IMD",
+      "url": "https://mausam.imd.gov.in/",
+      "organization_type": "government_meteorological_department",
+      "country": "India",
+      "language": [
+        "en",
+        "hi"
+      ],
+      "information_categories": [
+        "weather",
+        "rainfall",
+        "weather_forecasts",
+        "agrometeorological_advisories"
+      ],
+      "verification_priority": "high",
+      "notes": "Use current forecasts and relevant agrometeorological advisories. Record the location, issue time, and validity period."
+    },
+    {
+      "source_id": "SRC009",
+      "name": "ICAR Agricultural Technology Application Research Institute Network",
+      "short_name": "ATARI",
+      "url": "https://icar.org.in/",
+      "organization_type": "government_agricultural_extension_network",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "regional_agricultural_advisories",
+        "crop_production",
+        "farmer_guidance",
+        "integrated_pest_management"
+      ],
+      "verification_priority": "high",
+      "notes": "Use advisories from the relevant regional network or associated Krishi Vigyan Kendra. The registry URL is the ICAR homepage; locate the specific regional publication before citing a claim."
+    },
+    {
+      "source_id": "SRC010",
+      "name": "Ministry of Agriculture and Farmers Welfare",
+      "short_name": "MoA&FW",
+      "url": "https://agriwelfare.gov.in/",
+      "organization_type": "government_ministry",
+      "country": "India",
+      "language": [
+        "en",
+        "hi"
+      ],
+      "information_categories": [
+        "agricultural_policy",
+        "government_schemes",
+        "farmer_guidance",
+        "agricultural_statistics"
+      ],
+      "verification_priority": "high",
+      "notes": "Use relevant ministry publications and official scheme information. Policy information should include its applicable date."
+    },
+    {
+      "source_id": "SRC011",
+      "name": "Agricultural Marketing Information Network",
+      "short_name": "AGMARKNET",
+      "url": "https://agmarknet.gov.in/",
+      "organization_type": "government_agricultural_market_information_service",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "mandi_prices",
+        "market_prices",
+        "commodity_markets"
+      ],
+      "verification_priority": "high",
+      "notes": "Use matching commodity, market, date, and price type. Clearly distinguish minimum, maximum, and modal prices."
+    },
+    {
+      "source_id": "SRC012",
+      "name": "National Informatics Centre - Open Government Data Platform",
+      "short_name": "data.gov.in",
+      "url": "https://www.data.gov.in/",
+      "organization_type": "government_open_data_platform",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "mandi_prices",
+        "government_datasets",
+        "agricultural_statistics"
+      ],
+      "verification_priority": "high",
+      "notes": "Record the dataset resource identifier, retrieval timestamp, and relevant fields when using API data. Check that the returned records match the requested crop and market."
+    },
+    {
+      "source_id": "SRC013",
+      "name": "Soil Health Card Portal",
+      "short_name": "Soil Health Card",
+      "url": "https://soilhealth.dac.gov.in/",
+      "organization_type": "government_agricultural_service",
+      "country": "India",
+      "language": [
+        "en",
+        "hi"
+      ],
+      "information_categories": [
+        "soil_health",
+        "soil_testing",
+        "nutrient_management",
+        "fertilizer_advice"
+      ],
+      "verification_priority": "high",
+      "notes": "Crop nutrient recommendations should consider the farmer's soil-test results and applicable regional guidance."
+    },
+    {
+      "source_id": "SRC014",
+      "name": "Krishi Vigyan Kendra Network",
+      "short_name": "KVK",
+      "url": "https://kvk.icar.gov.in/",
+      "organization_type": "government_agricultural_extension_network",
+      "country": "India",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "local_crop_advisories",
+        "pest_management",
+        "fertilizer_advice",
+        "irrigation",
+        "farmer_guidance"
+      ],
+      "verification_priority": "high",
+      "notes": "Prefer the KVK serving the farmer's district. Store the exact advisory title, publishing institution, date, and URL."
+    },
+    {
+      "source_id": "SRC015",
+      "name": "Food and Agriculture Organization of the United Nations",
+      "short_name": "FAO",
+      "url": "https://www.fao.org/",
+      "organization_type": "international_agricultural_organization",
+      "country": "International",
+      "language": [
+        "en"
+      ],
+      "information_categories": [
+        "crop_production",
+        "soil_management",
+        "water_management",
+        "integrated_pest_management",
+        "sustainable_agriculture"
+      ],
+      "verification_priority": "medium",
+      "notes": "Use relevant technical publications as supporting references. Prefer applicable Indian and regional recommendations when they are available."
+    }
+  ]
+}

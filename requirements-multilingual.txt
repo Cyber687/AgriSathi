@@ -1,0 +1,3 @@
+# Install alongside your existing requirements.txt
+# llama-cpp-python may require a C/C++ build toolchain on Windows.
+llama-cpp-python>=0.3.0
