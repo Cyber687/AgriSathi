@@ -9,10 +9,10 @@ Its primary goal is to make agricultural information easier to access while avoi
 
 ---
 
-**Team Members (Group 9):**
-- Karan Kumar (12528042)
-- Aniket Nanda (12528720)
-- Rahi Kumar Kushwaha (12528922)
+**Team Members:**
+- Karan Kumar 
+- Aniket Nanda 
+- Rahi Kumar Kushwaha 
 
 ## 📌 Table of Contents
 
