@@ -48,6 +48,7 @@ from engine.recommendation import RecommendationEngine
 
 from services.weather_service import WeatherService
 from services.mandi_service import MandiService
+from services.gemini_service import GeminiService
 from services.local_gguf_translator import LocalGGUFTranslator, LANGUAGES
 
 
@@ -608,6 +609,7 @@ class AgriSathiApplication:
         # Recommendation engine
         self.recommendation_engine = RecommendationEngine()
         self.local_translator = LocalGGUFTranslator(PROJECT_ROOT)
+        self.gemini_service = GeminiService()
 
         # Safety engine is imported lazily so the API can report
         # initialization failures without pretending that advice
@@ -771,6 +773,49 @@ class AgriSathiApplication:
         # Current parser/recommendation templates are natively English/Hindi.
         # Other languages use the local GGUF only for faithful translation.
         processing_language = language if language in {"en", "hi"} else "en"
+
+        # ============================================================
+        # UPGRADE: PRE-FLIGHT GEMINI ROUTING
+        # ============================================================
+        # If the query is non-agricultural and not dangerous, route to Gemini immediately.
+        is_dangerous = bool(re.search(r"\b(pesticide|insecticide|fungicide|herbicide|dosage|dose)\b", query, flags=re.IGNORECASE))
+        agri_keywords = ["crop", "wheat", "rice", "maize", "potato", "tomato", "pest", "fertilizer", "soil", "weather", "mandi", "seed", "plant", "farm", "irrigation", "yield", "harvest", "agriculture", "farming"]
+        is_agri = any(k in query.lower() for k in agri_keywords)
+        
+        if not is_agri and not is_dangerous:
+            logger.info(f"✨ General query detected PRE-FLIGHT. Routing directly to Gemini.")
+            system_prompt = (
+                "You are AgriSathi, a helpful Indian AI assistant. "
+                "Answer the user's question accurately in 1-2 sentences. "
+                "If the question is entirely unrelated to farming, gently mention you are an agricultural assistant but still answer the question."
+            )
+            gemini_response = self.gemini_service.generate(prompt=query, system_prompt=system_prompt)
+            
+            if gemini_response:
+                final_response = {
+                    "approved": True, "status": "approved", "language": requested_language,
+                    "answer": gemini_response, "final_answer": gemini_response,
+                    "query": query, "intent": "general_knowledge",
+                    "parsed_query": {}, "sources": [], "warnings": [],
+                    "safety": {"approved": True, "status": "approved"},
+                    "timestamp": utc_timestamp(),
+                }
+                self.response_cache[cache_key] = final_response
+                return final_response
+            else:
+                # If Gemini times out or fails, return a friendly message instead of blocking
+                logger.warning("Gemini failed. Returning friendly fallback.")
+                fallback_msg = "I am currently having trouble reaching the general knowledge server. However, as an agricultural assistant, I am fully ready to help you with crop cultivation, pests, weather, and market prices!"
+                final_response = {
+                    "approved": True, "status": "approved", "language": requested_language,
+                    "answer": fallback_msg, "final_answer": fallback_msg,
+                    "query": query, "intent": "general_knowledge",
+                    "parsed_query": {}, "sources": [], "warnings": [],
+                    "safety": {"approved": True, "status": "approved"},
+                    "timestamp": utc_timestamp(),
+                }
+                self.response_cache[cache_key] = final_response
+                return final_response
 
         # ----------------------------------------------------
         # A. PARSE THE QUERY
